@@ -1,0 +1,4 @@
+kchildlock: file-in-unusual-dir var/opt/kchildlock/dummy.txt
+kchildlock: script-not-executable usr/share/kde4/services/kcm_kchildlock.desktop
+kchildlock: unusual-interpreter usr/share/kde4/services/kcm_kchildlock.desktop #!xdg-open
+

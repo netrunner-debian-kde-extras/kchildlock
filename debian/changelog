@@ -1,0 +1,5 @@
+kchildlock (0.90.4.2-1) UNRELEASED; urgency=low
+
+  * Initial release (Closes: #724492)  
+
+ -- Howard Chan <smartboyhw@gmail.com>  Tue, 24 Sep 2013 16:54:03 +0800

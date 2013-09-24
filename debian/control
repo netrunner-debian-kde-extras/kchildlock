@@ -1,0 +1,18 @@
+Source: kchildlock
+Section: admin
+Priority: extra
+Maintainer: Debian KDE Extras Team <pkg-kde-extras@lists.alioth.debian.org>
+Uploaders: Howard Chan <smartboyhw@gmail.com>
+Build-Depends: debhelper (>= 9), cmake, pkg-kde-tools
+Standards-Version: 3.9.4
+Homepage: http://kchildlock.sourceforge.net
+
+Package: kchildlock
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}
+Description: Child computer time restricter
+ kchildlock restricts the time a children spends on the PC.
+ Limits can be specified per day of the week, by lower and
+ upper hour limits, max daily usage time, and max weekly
+ usage time. Restriction limits can be applied to applications.
+ Linux/ KDE4.
