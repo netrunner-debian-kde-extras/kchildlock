@@ -1,0 +1,15 @@
+[Desktop Entry]
+Type=Service
+Icon=kchildlock-desktop
+X-KDE-ServiceTypes=KDEDModule
+X-KDE-Library=kchildlockdaemon
+X-KDE-DBus-ModuleName=kchildlockdaemon
+X-KDE-Kded-autoload=true
+X-KDE-Kded-load-on-demand=false
+
+Name=Kchildlock
+Name[x-test]=xxKchildlockxx
+
+Comment=A Children Lock Daemon
+Comment[de]=Ein Dienst für Einschränkungen der Rechnernutzung für Kinder
+Comment[sk]=Démon detského zámku

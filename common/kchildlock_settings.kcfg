@@ -1,0 +1,534 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE kcfg SYSTEM "http://www.kde.org/standards/kcfg/1.0/kcfg.dtd">
+<kcfg xmlns="http://www.kde.org/standards/kcfg/1.0"
+      xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+      xsi:schemaLocation="http://www.kde.org/standards/kcfg/1.0
+                          http://www.kde.org/standards/kcfg/1.0/kcfg.xsd" >
+  <include>kglobalsettings.h</include>
+  <include>qdatetime.h</include>
+  <kcfgfile arg="true">
+  </kcfgfile>
+  
+// General Group
+
+  <group name="General">
+    <entry name="scaninterval" type="Int">
+	    <label notr="true">Scaninterval for the Monitor Daemon</label>
+	    <tooltip>Scaninterval for the Monitor Daemon</tooltip>
+            <min>1</min>
+            <max>120</max>
+	    <default>60</default>
+    </entry>
+    <entry name="enable_restrictions" type="Bool">
+	    <label notr="true">Enable the restrictions</label>
+	    <default>FALSE</default>
+    </entry>
+    <entry name="enable_systray" type="Bool">
+	    <label notr="true">Enable System Tray Icon for User</label>
+	    <default>FALSE</default>
+    </entry>
+    <entry name="usernamestringlist" type="StringList">
+	    <label notr="true">usernamestringlist</label>
+	    <default>""</default>
+    </entry>
+    <entry name="groupnamestringlist" type="StringList">
+	    <label notr="true">groupnamestringlist</label>
+	    <default>""</default>
+    </entry>
+  </group>
+
+// User Group
+
+  <group name="UserGroup">
+    <entry name="enabled" type="Bool">
+	    <label notr="true">User enabled</label>
+	    <default>FALSE</default>
+    </entry>
+    <entry name="user_group_type" type="String">
+	    <label notr="true">user_group_type</label>
+	    <default>"U"</default>
+    </entry>
+    <entry name="usergroupid" type="Int">
+	    <label notr="true">User id</label>
+	    <default>FALSE</default>
+    </entry>
+    <entry name="usergroupnamestring" type="String">
+	    <label notr="true">usernamestring</label>
+	    <default></default>
+    </entry>
+    <entry name="sameRestrictLT" type="Bool">
+	    <label notr="true">same restrictions for every day</label>
+	    <default>TRUE</default>
+    </entry>
+    <entry name="diffRestrictLT" type="Bool">
+	    <label notr="true">restrictions depend on weekday</label>
+	    <default>FALSE</default>
+    </entry>
+    <entry name="sameRestrictTD" type="Bool">
+	    <label notr="true">same restrictions for every day</label>
+	    <default>TRUE</default>
+    </entry>
+    <entry name="diffRestrictTD" type="Bool">
+	    <label notr="true">restrictions depend on weekday</label>
+	    <default>FALSE</default>
+    </entry>
+    <entry name="DAYfrom" type="Int">
+	    <label notr="true">Everyday from hour</label>
+	    <default>480</default>
+    </entry>
+    <entry name="DAYto" type="Int">
+	    <label notr="true">Everyday to hour</label>
+	    <default>1200</default>
+    </entry>
+    <entry name="DAYmaxhr" type="Int">
+	    <label notr="true">Everyday maximal hours</label>
+	    <default>2</default>
+    </entry>
+    <entry name="DAYmaxmin" type="Int">
+	    <label notr="true">Everyday maximal minutes</label>
+	    <default>30</default>
+    </entry>
+
+// User Group / Monday
+
+    <entry name="MONenabledLT" type="Bool">
+	    <label notr="true">Monday enabled</label>
+	    <default>FALSE</default>
+	    <enabled>FALSE></enabled>
+    </entry>
+    <entry name="MONenabledTD" type="Bool">
+	    <label notr="true">Monday enabled</label>
+	    <default>FALSE</default>
+	    <enabled>FALSE></enabled>
+    </entry>
+    <entry name="MONfrom" type="Int">
+	    <label notr="true">Monday from hour</label>
+	    <default>480</default>
+	    <enabled>FALSE></enabled>
+    </entry>
+    <entry name="MONto" type="Int">
+	    <label notr="true">Monday to hour</label>
+	    <default>1200</default>
+	    <enabled>FALSE></enabled>
+    </entry>
+    <entry name="MONmaxhr" type="Int">
+	    <label notr="true">Monday maximal hours</label>
+	    <default>2</default>
+	    <enabled>FALSE></enabled>
+    </entry>
+    <entry name="MONmaxmin" type="Int">
+	    <label notr="true">Monday maximal minutes</label>
+	    <default>30</default>
+	    <enabled>FALSE></enabled>
+    </entry>
+
+// User Group / Tuesday
+
+    <entry name="TUEenabledLT" type="Bool">
+	    <label notr="true">Monday enabled</label>
+	    <default>FALSE</default>
+    </entry>
+    <entry name="TUEenabledTD" type="Bool">
+	    <label notr="true">Monday enabled</label>
+	    <default>FALSE</default>
+    </entry>
+    <entry name="TUEfrom" type="Int">
+	    <label notr="true">Monday from hour</label>
+	    <default>480</default>
+    </entry>
+    <entry name="TUEto" type="Int">
+	    <label notr="true">Monday to hour</label>
+	    <default>1200</default>
+    </entry>
+    <entry name="TUEmaxhr" type="Int">
+	    <label notr="true">Monday maximal hours</label>
+	    <default>2</default>
+    </entry>
+    <entry name="TUEmaxmin" type="Int">
+	    <label notr="true">Monday maximal minutes</label>
+	    <default>30</default>
+    </entry>
+
+
+// User Group / Wednesday
+
+
+    <entry name="WEDenabledLT" type="Bool">
+	    <label notr="true">Monday enabled</label>
+	    <default>FALSE</default>
+    </entry>
+    <entry name="WEDenabledTD" type="Bool">
+	    <label notr="true">Monday enabled</label>
+	    <default>FALSE</default>
+    </entry>
+    <entry name="WEDfrom" type="Int">
+	    <label notr="true">Monday from hour</label>
+	    <default>480</default>
+    </entry>
+    <entry name="WEDto" type="Int">
+	    <label notr="true">Monday to hour</label>
+	    <default>1200</default>
+    </entry>
+    <entry name="WEDmaxhr" type="Int">
+	    <label notr="true">Monday maximal hours</label>
+	    <default>2</default>
+    </entry>
+    <entry name="WEDmaxmin" type="Int">
+	    <label notr="true">Monday maximal minutes</label>
+	    <default>30</default>
+    </entry>
+
+
+// User Group / Thursday
+
+
+    <entry name="THUenabledLT" type="Bool">
+	    <label notr="true">Monday enabled</label>
+	    <default>FALSE</default>
+    </entry>
+    <entry name="THUenabledTD" type="Bool">
+	    <label notr="true">Monday enabled</label>
+	    <default>FALSE</default>
+    </entry>
+    <entry name="THUfrom" type="Int">
+	    <label notr="true">Monday from hour</label>
+	    <default>480</default>
+    </entry>
+    <entry name="THUto" type="Int">
+	    <label notr="true">Monday to hour</label>
+	    <default>1200</default>
+    </entry>
+    <entry name="THUmaxhr" type="Int">
+	    <label notr="true">Monday maximal hours</label>
+	    <default>2</default>
+    </entry>
+    <entry name="THUmaxmin" type="Int">
+	    <label notr="true">Monday maximal minutes</label>
+	    <default>30</default>
+    </entry>
+
+
+// User Group / Friday
+
+
+    <entry name="FRIenabledLT" type="Bool">
+	    <label notr="true">Monday enabled</label>
+	    <default>FALSE</default>
+    </entry>
+    <entry name="FRIenabledTD" type="Bool">
+	    <label notr="true">Monday enabled</label>
+	    <default>FALSE</default>
+    </entry>
+    <entry name="FRIfrom" type="Int">
+	    <label notr="true">Monday from hour</label>
+	    <default>480</default>
+    </entry>
+    <entry name="FRIto" type="Int">
+	    <label notr="true">Monday to hour</label>
+	    <default>1260</default>
+    </entry>
+    <entry name="FRImaxhr" type="Int">
+	    <label notr="true">Monday maximal hours</label>
+	    <default>3</default>
+    </entry>
+    <entry name="FRImaxmin" type="Int">
+	    <label notr="true">Monday maximal minutes</label>
+	    <default>0</default>
+    </entry>
+
+
+// User Group / Saturday
+
+
+    <entry name="SATenabledLT" type="Bool">
+	    <label notr="true">Monday enabled</label>
+	    <default>FALSE</default>
+    </entry>
+    <entry name="SATenabledTD" type="Bool">
+	    <label notr="true">Monday enabled</label>
+	    <default>FALSE</default>
+    </entry>
+    <entry name="SATfrom" type="Int">
+	    <label notr="true">Monday from hour</label>
+	    <default>480</default>
+    </entry>
+    <entry name="SATto" type="Int">
+	    <label notr="true">Monday to hour</label>
+	    <default>1260</default>
+    </entry>
+    <entry name="SATmaxhr" type="Int">
+	    <label notr="true">Monday maximal hours</label>
+	    <default>3</default>
+    </entry>
+    <entry name="SATmaxmin" type="Int">
+	    <label notr="true">Monday maximal minutes</label>
+	    <default>0</default>
+    </entry>
+
+
+// User Group / Sunday
+
+
+    <entry name="SUNenabledLT" type="Bool">
+	    <label notr="true">Monday enabled</label>
+	    <default>FALSE</default>
+    </entry>
+    <entry name="SUNenabledTD" type="Bool">
+	    <label notr="true">Monday enabled</label>
+	    <default>FALSE</default>
+    </entry>
+    <entry name="SUNfrom" type="Int">
+	    <label notr="true">Monday from hour</label>
+	    <default>480</default>
+    </entry>
+    <entry name="SUNto" type="Int">
+	    <label notr="true">Monday to hour</label>
+	    <default>1200</default>
+    </entry>
+    <entry name="SUNmaxhr" type="Int">
+	    <label notr="true">Monday maximal hours</label>
+	    <default>2</default>
+    </entry>
+    <entry name="SUNmaxmin" type="Int">
+	    <label notr="true">Monday maximal minutes</label>
+	    <default>30</default>
+    </entry>
+
+
+// User1 Group / Week
+
+
+    <entry name="WEEKenabled" type="Bool">
+	    <label notr="true">Week enabled</label>
+	    <default>FALSE</default>
+    </entry>
+    <entry name="WEEKmaxhr" type="Int">
+	    <label notr="true">Week maximal hours</label>
+	    <default>8</default>
+    </entry>
+    <entry name="WEEKmaxmin" type="Int">
+	    <label notr="true">Week maximal minutes</label>
+	    <default>0</default>
+    </entry>
+
+// User Group / Application 1
+
+    <entry name="App1enabledPT" type="Bool">
+	    <label notr="true">Application 1</label>
+	    <default>FALSE</default>
+    </entry>
+    <entry name="AppName1PT" type="String">
+	    <label notr="true">appname1string_U1</label>
+	    <default></default>
+    </entry>
+    <entry name="App1enabledPD" type="Bool">
+	    <label notr="true">Application 1</label>
+	    <default>FALSE</default>
+    </entry>
+    <entry name="AppName1PD" type="String">
+	    <label notr="true">appname1string_U1</label>
+	    <default></default>
+    </entry>
+    <entry name="App1from" type="Int">
+	    <label notr="true">Application1 from hour</label>
+	    <default>480</default>
+    </entry>
+    <entry name="App1to" type="Int">
+	    <label notr="true">Application1 to hour</label>
+	    <default>1200</default>
+    </entry>
+    <entry name="App1maxDhr" type="Int">
+	    <label notr="true">Application1 maximal daily hours</label>
+	    <default>2</default>
+    </entry>
+    <entry name="App1maxDmin" type="Int">
+	    <label notr="true">Application1 maximal daily minutes</label>
+	    <default>30</default>
+    </entry>
+    <entry name="App1maxWhr" type="Int">
+	    <label notr="true">Application1 maximal daily hours</label>
+	    <default>2</default>
+    </entry>
+    <entry name="App1maxWmin" type="Int">
+	    <label notr="true">Application1 maximal daily minutes</label>
+	    <default>30</default>
+    </entry>
+
+// User Group / Application 2
+
+    <entry name="App2enabledPT" type="Bool">
+	    <label notr="true">Application 2</label>
+	    <default>FALSE</default>
+    </entry>
+    <entry name="AppName2PT" type="String">
+	    <label notr="true">appname2string1</label>
+	    <default></default>
+    </entry>
+    <entry name="App2enabledPD" type="Bool">
+	    <label notr="true">Application 2</label>
+	    <default>FALSE</default>
+    </entry>
+    <entry name="AppName2PD" type="String">
+	    <label notr="true">appname2string_U1</label>
+	    <default></default>
+    </entry>
+    <entry name="App2from" type="Int">
+	    <label notr="true">Application2 from hour</label>
+	    <default>480</default>
+    </entry>
+    <entry name="App2to" type="Int">
+	    <label notr="true">Application2 to hour</label>
+	    <default>1200</default>
+    </entry>
+    <entry name="App2maxDhr" type="Int">
+	    <label notr="true">Application2 maximal daily hours</label>
+	    <default>2</default>
+    </entry>
+    <entry name="App2maxDmin" type="Int">
+	    <label notr="true">Application2 maximal daily minutes</label>
+	    <default>30</default>
+    </entry>
+    <entry name="App2maxWhr" type="Int">
+	    <label notr="true">Application2 maximal daily hours</label>
+	    <default>2</default>
+    </entry>
+    <entry name="App2maxWmin" type="Int">
+	    <label notr="true">Application2 maximal daily minutes</label>
+	    <default>30</default>
+    </entry>
+
+// User Group / Application 3
+
+    <entry name="App3enabledPT" type="Bool">
+	    <label notr="true">Application 3</label>
+	    <default>FALSE</default>
+    </entry>
+    <entry name="AppName3PT" type="String">
+	    <label notr="true">appname3string_U3</label>
+	    <default></default>
+    </entry>
+    <entry name="App3enabledPD" type="Bool">
+	    <label notr="true">Application 3</label>
+	    <default>FALSE</default>
+    </entry>
+    <entry name="AppName3PD" type="String">
+	    <label notr="true">appname3string_U3</label>
+	    <default></default>
+    </entry>
+    <entry name="App3from" type="Int">
+	    <label notr="true">Application3 from hour</label>
+	    <default>480</default>
+    </entry>
+    <entry name="App3to" type="Int">
+	    <label notr="true">Application3 to hour</label>
+	    <default>1200</default>
+    </entry>
+    <entry name="App3maxDhr" type="Int">
+	    <label notr="true">Application3 maximal daily hours</label>
+	    <default>2</default>
+    </entry>
+    <entry name="App3maxDmin" type="Int">
+	    <label notr="true">Application3 maximal daily minutes</label>
+	    <default>30</default>
+    </entry>
+    <entry name="App3maxWhr" type="Int">
+	    <label notr="true">Application3 maximal daily hours</label>
+	    <default>2</default>
+    </entry>
+    <entry name="App3maxWmin" type="Int">
+	    <label notr="true">Application3 maximal daily minutes</label>
+	    <default>30</default>
+    </entry>
+
+// User Group / Application 4
+
+    <entry name="App4enabledPT" type="Bool">
+	    <label notr="true">Application 4</label>
+	    <default>FALSE</default>
+    </entry>
+    <entry name="AppName4PT" type="String">
+	    <label notr="true">appname4string_U4</label>
+	    <default></default>
+    </entry>
+    <entry name="App4enabledPD" type="Bool">
+	    <label notr="true">Application 4</label>
+	    <default>FALSE</default>
+    </entry>
+    <entry name="AppName4PD" type="String">
+	    <label notr="true">appname4string_U4</label>
+	    <default></default>
+    </entry>
+    <entry name="App4from" type="Int">
+	    <label notr="true">Application4 from hour</label>
+	    <default>480</default>
+    </entry>
+    <entry name="App4to" type="Int">
+	    <label notr="true">Application4 to hour</label>
+	    <default>1200</default>
+    </entry>
+    <entry name="App4maxDhr" type="Int">
+	    <label notr="true">Application4 maximal daily hours</label>
+	    <default>2</default>
+    </entry>
+    <entry name="App4maxDmin" type="Int">
+	    <label notr="true">Application4 maximal daily minutes</label>
+	    <default>30</default>
+    </entry>
+    <entry name="App4maxWhr" type="Int">
+	    <label notr="true">Application4 maximal daily hours</label>
+	    <default>2</default>
+    </entry>
+    <entry name="App4maxWmin" type="Int">
+	    <label notr="true">Application4 maximal daily minutes</label>
+	    <default>30</default>
+    </entry>
+
+// User Group / Application 5
+
+    <entry name="App5enabledPT" type="Bool">
+	    <label notr="true">Application 5</label>
+	    <default>FALSE</default>
+    </entry>
+    <entry name="AppName5PT" type="String">
+	    <label notr="true">appname5string_U5</label>
+	    <default></default>
+    </entry>
+    <entry name="App5enabledPD" type="Bool">
+	    <label notr="true">Application 5</label>
+	    <default>FALSE</default>
+    </entry>
+    <entry name="AppName5PD" type="String">
+	    <label notr="true">appname5string_U5</label>
+	    <default></default>
+    </entry>
+    <entry name="App5from" type="Int">
+	    <label notr="true">Application5 from hour</label>
+	    <default>480</default>
+    </entry>
+    <entry name="App5to" type="Int">
+	    <label notr="true">Application5 to hour</label>
+	    <default>1200</default>
+    </entry>
+    <entry name="App5maxDhr" type="Int">
+	    <label notr="true">Application5 maximal daily hours</label>
+	    <default>2</default>
+    </entry>
+    <entry name="App5maxDmin" type="Int">
+	    <label notr="true">Application5 maximal daily minutes</label>
+	    <default>30</default>
+    </entry>
+    <entry name="App5maxWhr" type="Int">
+	    <label notr="true">Application5 maximal daily hours</label>
+	    <default>2</default>
+    </entry>
+    <entry name="App5maxWmin" type="Int">
+	    <label notr="true">Application5 maximal daily minutes</label>
+	    <default>30</default>
+    </entry>
+
+
+</group>
+
+
+
+ </kcfg>

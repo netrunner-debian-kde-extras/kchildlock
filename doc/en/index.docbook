@@ -1,0 +1,803 @@
+<?xml version="1.0" ?>
+<!DOCTYPE book PUBLIC "-//KDE//DTD DocBook XML V4.2-Based Variant V1.1//EN" "dtd/kdex.dtd" [
+  <!ENTITY kchildlock "<application>kchildlock</application>">
+  <!ENTITY kappname "&kchildlock;"><!-- Do *not* replace kappname-->
+  <!ENTITY package "kde-module"><!-- kdebase, kdeadmin, etc -->
+  <!ENTITY % addindex "IGNORE">
+  <!ENTITY % English "INCLUDE"><!-- change language only here -->
+  
+  
+  <!-- Do not define any other entities; instead, use the entities
+       from kde-genent.entities and $LANG/user.entities. -->
+]>
+<!-- kdoctemplate v0.8 October 1 1999 
+     Minor update to "Credits and Licenses" section on August 24, 2000
+     Removed "Revision history" section on 22 January 2001
+     Changed to Installation/Help menu entities 18 October 2001
+     Other minor cleanup and changes 18 October 2001 -->
+
+
+
+<!-- ................................................................ -->
+
+<!-- The language must NOT be changed here. -->
+
+<book lang="&language;">
+
+<!-- This header contains all of the meta-information for the document such
+as Authors, publish date, the abstract, and Keywords -->
+
+<bookinfo>
+<title>The &kchildlock; Handbook</title>
+
+<authorgroup>
+<author>
+<firstname></firstname>
+<othername></othername>
+<surname>Rene Landert</surname>
+<affiliation>
+<address><email>rene.landert@bluewin.ch</email></address>
+</affiliation>
+</author>
+</authorgroup>
+
+<!-- TRANS:ROLES_OF_TRANSLATORS -->
+
+<copyright>
+<year>2008</year>
+<year>2011</year>
+<holder>Rene Landert</holder>
+</copyright>
+<!-- Translators: put here the copyright notice of the translation -->
+<!-- Put here the FDL notice.  Read the explanation in fdl-notice.docbook
+     and in the FDL itself on how to use it. -->
+<legalnotice>&FDLNotice;</legalnotice>
+
+<!-- Date and version information of the documentation
+Don't forget to include this last date and this last revision number, we
+need them for translation coordination !
+Please respect the format of the date (YYYY-MM-DD) and of the version
+(V.MM.LL), it could be used by automation scripts.
+Do NOT change these in the translation. -->
+
+<date>2011-06-15</date>
+<releaseinfo>0.90.3</releaseinfo>
+
+<!-- Abstract about this handbook -->
+
+<abstract>
+<para>
+&kchildlock; is a tool to monitor and restrict the usage time of a children spent on the computer.
+</para>
+</abstract>
+
+<!-- This is a set of Keywords for indexing by search engines.
+Please at least include KDE, the KDE package it is in, the name
+ of your application, and a few relevant keywords. -->
+
+<keywordset>
+<keyword>KDE</keyword>
+<keyword>kchildlock</keyword>
+<keyword>restrict</keyword>
+<keyword>children</keyword>
+<keyword>usage</keyword>
+<keyword>computer</keyword>
+</keywordset>
+
+</bookinfo>
+
+<!-- The contents of the documentation begin here.  Label
+each chapter so with the id attribute. This is necessary for two reasons: it
+allows you to easily reference the chapter from other chapters of your
+document, and if there is no ID, the name of the generated HTML files will vary
+from time to time making it hard to manage for maintainers and for the CVS
+system. Any chapter labelled (OPTIONAL) may be left out at the author's
+discretion. Other chapters should not be left out in order to maintain a
+consistent documentation style across all KDE apps. -->
+
+<chapter id="introduction">
+<title>Introduction</title>
+
+<!-- The introduction chapter contains a brief introduction for the
+application that explains what it does and where to report
+problems. Basically a long version of the abstract.  Don't include a
+revision history. (see installation appendix comment) -->
+
+<para>
+kchildlock is a tool to monitor and restrict the time a children spends on the computer. The limits can be specified per day of the week, by lower and upper hour limits, maximum daily usage time, and maximum weekly usage time. The same restriction limits can be applied to applications based on the user login.
+Please report any problems or feature requests to the author  <address><email>rene.landert@bluewin.ch</email></address>
+</para>
+</chapter>
+
+<chapter id="enable-kchildlock">
+<title>Enable kchildlock</title>
+
+<!-- This chapter should tell the user how to use your app. You should use as
+many sections (Chapter, Sect1, Sect3, etc...) as is necessary to fully document
+your application. -->
+
+
+<!-- Note that all graphics should be in .png format. Use no gifs because of
+patent issues. -->
+
+<para>To enable kchildlock, open a shell and enter <command>kdesu systemsettings</command> or select from the Kickoff application launcher <menuchoice><guimenu>Configure Desktop</guimenu></menuchoice>.
+</para>
+
+	<mediaobject>
+	  <imageobject>
+	    <imagedata fileref="en_printscreen1.png" format="PNG" align="center"/>
+	  </imageobject>
+	  <textobject>
+	    <phrase>How to configure kchildlock</phrase>
+	  </textobject>
+	</mediaobject>
+
+<para>
+Click on the tab <guimenu>Advanced</guimenu> at the top of the menu. You will now see in the section <guimenu>System</guimenu> the icon for kchildlock.
+</para>
+
+	<mediaobject>
+	  <imageobject>
+	    <imagedata fileref="en_printscreen1b.png" format="PNG" align="center"/>
+	  </imageobject>
+	  <textobject>
+	    <phrase>personal settings - system</phrase>
+	  </textobject>
+	</mediaobject>
+
+<para>
+By clicking on the Icon for kchildlock you start the configuration of the restrictions. The monitoring daemon 'kded_kchildlockdaemon.so' will start after the next user login, which enforces the configured restrictions. The daemon is started automatically by KDE each time a user logs in.
+</para>
+
+<para>
+Only the 'root' user can change the settings in the configuration dialog, so you have to provide the root password.</para>
+
+
+	<mediaobject>
+	  <imageobject>
+	    <imagedata fileref="en_printscreen1c.png" format="PNG" align="center"/>
+	  </imageobject>
+	  <textobject>
+	    <phrase>root privileges are required</phrase>
+	  </textobject>
+	</mediaobject>
+
+<para>
+If the user does not provide the root password and clicks on the "Ignore" Button, he just can display the settings in the configuration dialog, but he can not save the changed values.</para>
+
+
+	<mediaobject>
+	  <imageobject>
+	    <imagedata fileref="en_printscreen1d.png" format="PNG" align="center"/>
+	  </imageobject>
+	  <textobject>
+	    <phrase>root privileges are required</phrase>
+	  </textobject>
+	</mediaobject>
+
+<para>
+To disable the restrictions, either uninstall the package or disable it on the general settings page.
+</para>
+
+<para>
+If the limit for the usage time for the specified user is reached, the KDE session will be closed. The user will receive notifications 15, 10 and 5 minutes before the logout to finish his work (or end his game...). If restrictions for applications are enabled, the same kind of messages are displayed, and at last the application will be terminated.
+
+</para>
+	<mediaobject>
+	  <imageobject>
+	    <imagedata fileref="en_printscreen4.png" format="PNG" align="center"/>
+	  </imageobject>
+	  <textobject>
+	    <phrase>Notification window</phrase>
+	  </textobject>
+	</mediaobject>
+</chapter>
+
+<chapter id="configuration">
+<title>Configuration</title>
+
+<sect1 id="general-configuration">
+<title>The general configuration settings</title>
+
+<para>On this page you configure the general settings.
+</para>
+
+	<mediaobject>
+	  <imageobject>
+	    <imagedata fileref="en_printscreen3.png" format="PNG" align="center"/>
+	  </imageobject>
+	  <textobject>
+	    <phrase>kchildlock general settings</phrase>
+	  </textobject>
+	</mediaobject>
+<para>
+   <itemizedlist>
+    <listitem>
+     <para>
+The first checkbox is to enable or disable the restrictions globally.
+</para></listitem>
+    <listitem>
+     <para>
+The second checkbox is to enable or disable the display of the system tray icon. This icon informs the user 
+about the used and remaining times.
+</para></listitem>
+<listitem><para>
+The scan interval is the interval between two consecutive checks for the restrictions. By default the check will be executed once every minute.
+</para></listitem></itemizedlist>
+</para>
+
+</sect1>
+
+
+<sect1 id="selecting-users-groups">
+<title>Add or delete users and groups</title>
+
+<para>You select a new user or group by clicking on the icon with the small green plus sign.
+A window with the possibility to choose a user or a group from the list of available linux users or
+linux groups will appear. Pick the desired name.
+</para>
+
+	<mediaobject>
+	  <imageobject>
+	    <imagedata fileref="en_printscreen12.png" format="PNG" align="center"/>
+	  </imageobject>
+	  <textobject>
+	    <phrase>kchildlock select a user</phrase>
+	  </textobject>
+	</mediaobject>
+
+	<mediaobject>
+	  <imageobject>
+	    <imagedata fileref="en_printscreen21.png" format="PNG" align="center"/>
+	  </imageobject>
+	  <textobject>
+	    <phrase>kchildlock select a group</phrase>
+	  </textobject>
+	</mediaobject>
+
+<para>
+After adding a new user or group, this user / group will be added to the list. Click on the desired user / group
+to edit the restrictions.
+</para>
+
+<para>
+To delete the restricitions of user or group, highlight the desired name and click on the icon with big red cross.
+You have to confirm the deletion.
+</para>
+
+	<mediaobject>
+	  <imageobject>
+	    <imagedata fileref="en_printscreen15.png" format="PNG" align="center"/>
+	  </imageobject>
+	  <textobject>
+	    <phrase>kchildlock select a user</phrase>
+	  </textobject>
+	</mediaobject>
+
+
+
+</sect1>
+
+
+
+<sect1 id="export-import">
+<title>Export and Import of profiles</title>
+
+<para>You can export all the settings to a directory. This directory will get the configuration files (these are the
+so called profiles). The settings of each user and group will be written in a file, the general settings will be written in 
+a main configuration file. The profiles can be edited with any text editor. Click on the icon with the exporting arrow, then
+choose the directory.
+</para>
+
+	<mediaobject>
+	  <imageobject>
+	    <imagedata fileref="en_printscreen17.png" format="PNG" align="center"/>
+	  </imageobject>
+	  <textobject>
+	    <phrase>kchildlock export profiles</phrase>
+	  </textobject>
+	</mediaobject>
+
+
+<para>
+You can import the settings for a defined user or group by clicking on the icon with the importing arrow. Then
+choose the profile.
+</para>
+
+	<mediaobject>
+	  <imageobject>
+	    <imagedata fileref="en_printscreen18.png" format="PNG" align="center"/>
+	  </imageobject>
+	  <textobject>
+	    <phrase>kchildlock import a profile</phrase>
+	  </textobject>
+	</mediaobject>
+
+
+
+</sect1>
+
+
+
+
+<sect1 id="user-configuration-login-time">
+<title>The settings for login time restrictions</title>
+
+<para>
+HINT: The restrictions for a group will be applied to every member of the group. If the user has user restrictions too, both will be applied.
+</para>
+
+
+<para>On the first tab you configure the login times for the highlighted user or group.
+</para>
+
+	<mediaobject>
+	  <imageobject>
+	    <imagedata fileref="en_printscreen13.png" format="PNG" align="center"/>
+	  </imageobject>
+	  <textobject>
+	    <phrase>kchildlock login time settings</phrase>
+	  </textobject>
+	</mediaobject>
+
+<para>
+   <itemizedlist>
+    <listitem>
+     <para>
+      enable Restriction for this user: enables the restrictions if checked. If not checked, all the other detailed restrictions on the lower part of the screen are ignored.
+     </para>
+    </listitem> 
+    <listitem>
+      <para>
+       Username: choose the user for whom the restrictions will be applied.
+      </para>
+    </listitem> 
+    <listitem>
+      <para>
+       same restrictions for every day: if checked, the same restrictions for the specified user will be applied to every weekday.
+      </para>
+    </listitem>
+    <listitem>
+      <para>
+       red and green time slider: this slider shows the allowed times for active sessions. The green area shows 
+       the allowed time range, In the red area there is no session allowed. You can move the whole range, or 
+       only the upper or lower limit by clicking with the mouse on the yellow border and drag it to the left 
+       or right. The time limits are displayed beneath the slider.
+      </para>
+    </listitem>
+    <listitem>
+      <para>
+       restrictions depend on weekday: if checked, the restrictions for the specified user will be applied to the individual days of the week.
+      </para>
+    </listitem>
+    <listitem>
+      <para>
+       Monday ... Sunday: if checked, the restrictions for the specified user will be applied on this day of week. If not checked, there will be NO restriction on this day of week!
+      </para>
+    </listitem>
+    <listitem>
+      <para>
+       red and green time slider: allow active sessions in the green time range.
+      </para>
+    </listitem>
+   </itemizedlist>
+</para>
+
+<para>
+In the above example, user "martin" is allowed to have an active session on the computer from 10:00 am to 8:00 pm on Mondays. If he logs in at 7:00 pm, he will be logged out at 8:00 pm.
+The same restrictions are applied on Tuesdays. On Wednesdays he may log in earlier the morning.
+On Saturdays there are NO restrictions, he may use the computer as long as the maximal weekly usage is not reached...
+</para>
+<para>
+If you want to disallow the usage on a certain weekday, limit the usage to a short time window from &eg; 03:00 to 03:15
+</para>
+
+</sect1>
+
+
+
+
+<sect1 id="user-configuration-time-duration">
+<title>The settings for time duration restrictions</title>
+
+<para>On the second tab you configure the time durations for the highlighted user or group.
+</para>
+
+	<mediaobject>
+	  <imageobject>
+	    <imagedata fileref="en_printscreen25.png" format="PNG" align="center"/>
+	  </imageobject>
+	  <textobject>
+	    <phrase>kchildlock time duration settings</phrase>
+	  </textobject>
+	</mediaobject>
+
+<para>
+   <itemizedlist>
+    <listitem>
+     <para>
+      enable Restriction for this user: meaning see previous chapter.
+     </para>
+    </listitem> 
+    <listitem>
+      <para>
+       Username: meaning see previous chapter.
+      </para>
+    </listitem> 
+    <listitem>
+      <para>
+       same restrictions for every day: meaning see previous chapter.
+      </para>
+    </listitem>
+    <listitem>
+      <para>
+       max hrs and mins per day: allowed time (measured in hours and minutes) for the user to have an active session per day.
+      </para>
+    </listitem>
+    <listitem>
+      <para>
+       restrictions depend on weekday: meaning see previous chapter.
+      </para>
+    </listitem>
+    <listitem>
+      <para>
+       Monday ... Sunday: if checked, the restrictions for the specified user will be applied on this day of week. If not checked, there will be NO time limit on this day of week!
+      </para>
+    </listitem>
+    <listitem>
+      <para>
+       max hrs and mins per day: allowed time (measured in hours and minutes) for the user to have an active session on this weekday.
+      </para>
+    </listitem>
+    <listitem>
+      <para>
+       total weekly usage: allowed time (measured in hours and minutes) for the user to have an active session on the whole week.
+      </para>
+    </listitem>
+   </itemizedlist>
+</para>
+
+<para>
+In the above example, user "martin" is allowed to work on the computer for 2 hours 30 minutes on mondays. If he logs in at 11:00 am, he will be logged out at 1:30 pm.
+The same restrictions are applied on Tuesdays, Wednesdays and Thursdays. On a Friday he may work 5 hours.
+On Saturdays there are NO restrictions, he may use the computer as long as the maximal weekly usage is not reached... This weekly limit is 8 hours per week in this example.
+The values for the usage times are reset to zero the first time you log in on a new week.
+</para>
+
+</sect1>
+
+
+
+<sect1 id="user-configuration-application-times">
+<title>The settings for application times restrictions</title>
+
+<para>
+On the third tab you configure the allowed times for working with applications. You can specify up to five applications
+for each user / group.
+</para>
+
+	<mediaobject>
+	  <imageobject>
+	    <imagedata fileref="en_printscreen19.png" format="PNG" align="center"/>
+	  </imageobject>
+	  <textobject>
+	    <phrase>kchildlock application times settings</phrase>
+	  </textobject>
+	</mediaobject>
+
+<para>
+   <itemizedlist>
+    <listitem>
+      <para>
+       enable Restriction for Application: first click on the "enable" button and then enter the name of the appplication which is restricted. The name has to be a part of the unix process name, as you can see it on a command shell when you type the command 'ps ux'. To limit the mentioned chat program, you could give a name like e.g. 'kopete' or 'kopet' or 'opete' or 'kope'. Every unix process of the given user which contains the string will be terminated!
+      </para>
+    </listitem>
+    <listitem>
+      <para>
+       red and green time slider: meaning see previous chapter.
+      </para>
+    </listitem>
+   </itemizedlist>
+</para>
+
+<para>
+In the above example, user "peter" is allowed to use the chat program 'kopete' from 12:00 am to 10:00 pm. If he starts the application before 12 am in the morning or after 10 pm, the application will be terminated immediately.
+The limitations to play 'Age of Empire' is from 4 pm to 11 pm. Outside these limits the game is over!
+</para>
+
+</sect1>
+
+
+
+<sect1 id="user-configuration-application-duration">
+<title>The settings for application duration restrictions</title>
+
+<para>
+On the fourth tab you configure the allowed amount of time per day and per week for working with applications. You can again specify up to five applications
+for each user / group.
+</para>
+
+	<mediaobject>
+	  <imageobject>
+	    <imagedata fileref="en_printscreen20.png" format="PNG" align="center"/>
+	  </imageobject>
+	  <textobject>
+	    <phrase>kchildlock application duration settings</phrase>
+	  </textobject>
+	</mediaobject>
+
+<para>
+   <itemizedlist>
+    <listitem>
+      <para>
+       enable Restriction for Application:  meaning see previous chapter.
+      </para>
+    </listitem>
+    <listitem>
+      <para>
+       max hrs and mins per day: allowed time (measured in hours and minutes) for the application to be active for this user per day.
+      </para>
+    </listitem>
+    <listitem>
+      <para>
+       max hrs and mins per week: allowed time (measured in hours and minutes) for the application to be active for this user per week.
+      </para>
+    </listitem>
+   </itemizedlist>
+</para>
+
+<para>
+In the above example, user "henry" is allowed to use the chat program 'kopete' for maximal 2 hours 30 minutes each day and 8 hours the whole week.
+The limitations to play 'Age of Empire' are up to 1 hour 30 minutes each day and 4 hours the whole week. After this time the game is over!
+The values for the weekly usage times are reset to zero the first time you log in on a new week.
+</para>
+
+</sect1>
+
+
+</chapter>
+
+
+<chapter id="systemtrayuser">
+<title>User System Tray Information</title>
+
+<para>If you enable the system tray icon for the user, he will get a appropriate icon 
+in the system tray.
+</para>
+	<mediaobject>
+	  <imageobject>
+	    <imagedata fileref="en_printscreen10.png" format="PNG" align="center"/>
+	  </imageobject>
+	  <textobject>
+	    <phrase>system tray icon</phrase>
+	  </textobject>
+	</mediaobject>
+
+
+<para>
+By doing a right mouseclick, 
+he will see the following context menu:
+</para>
+
+	<mediaobject>
+	  <imageobject>
+	    <imagedata fileref="en_printscreen8.png" format="PNG" align="center"/>
+	  </imageobject>
+	  <textobject>
+	    <phrase>context menu for system tray icon</phrase>
+	  </textobject>
+	</mediaobject>
+<para>
+After clicking on the menu "Show Restrictions" the current status will be displayed.
+</para>
+
+	<mediaobject>
+	  <imageobject>
+	    <imagedata fileref="en_printscreen9.png" format="PNG" align="center"/>
+	  </imageobject>
+	  <textobject>
+	    <phrase>current status of restrictions</phrase>
+	  </textobject>
+	</mediaobject>
+
+<para>
+The displayed values are the current limitations, and the remaining time for today and for this week.
+The progress bar displays the percentage values for these times.
+</para>
+
+</chapter>
+
+
+<chapter id="commands">
+<title>Command Reference</title>
+
+<!-- (OPTIONAL, BUT RECOMMENDED) This chapter should list all of the
+application windows and their menubar and toolbar commands for easy reference.
+Also include any keys that have a special function but have no equivalent in the
+menus or toolbars. This may not be necessary for small apps or apps with no tool
+or menu bars. -->
+
+<sect1 id="kchildlock-technical-info">
+<title>Technical informations</title>
+
+<para>
+If you want to enable the logging function of the daemon, create a file '/var/opt/kchildlock/kchildlockd__debuglog.tmp' with any content. The generated log files will be named like '/var/opt/kchildlock/kchildlockd_yyyymmdd_HHMMSS_debuglog.tmp'.
+</para>
+<para>
+Important files are:
+</para>
+<para>
+/var/opt/kchildlock/kchildlockd__debuglog.tmp  :  to enable writing a debug log file
+</para>
+<para>
+/var/opt/kchildlock/kchildlockd_yyyymmdd_HHMMSS_debuglog.tmp  :  debug log file, generated on HH:MM:SS on mm/dd/yyyy.
+</para>
+<para>
+/var/opt/kchildlock/.kch_time.dat  :  keeps the consumed usage times of a all users
+</para>
+<para>
+/usr/share/kde4/config/kchildlockrc  :  main configuration entered by the GUI
+</para>
+<para>
+/usr/share/kde4/config/kchildlockrc_U_"username"  :  configuration for a specific user entered by the GUI
+</para>
+<para>
+/usr/share/kde4/config/kchildlockrc_G_"groupname"  :  configuration for a specific group entered by the GUI
+</para>
+
+</sect1>
+</chapter>
+
+
+<chapter id="faq">
+<title>Questions and Answers</title>
+
+<!-- (OPTIONAL but recommended) This chapter should include all of the silly
+(and not-so-silly) newbie questions that fill up your mailbox. This chapter
+should be reserved for BRIEF questions and answers! If one question uses more
+than a page or so then it should probably be part of the
+"Using this Application" chapter instead. You should use links to
+cross-reference questions to the parts of your documentation that answer them.
+This is also a great place to provide pointers to other FAQ's if your users
+must do some complicated configuration on other programs in order for your
+application work. -->
+
+&reporting.bugs;
+&updating.documentation;
+
+</chapter>
+
+<chapter id="credits">
+
+<!-- Include credits for the programmers, documentation writers, and
+contributors here. The license for your software should then be included below
+the credits with a reference to the appropriate license file included in the KDE
+distribution. -->
+
+<title>Credits and License</title>
+
+<para>
+&kchildlock;
+</para>
+<para>
+Program copyright 2008-2011 Rene Landert <email>rene.landert@bluewin.ch</email>
+</para>
+<para>
+Contributors:
+<itemizedlist>
+<listitem><para>Rene Landert <email>rene.landert@bluewin.ch</email></para>
+</listitem>
+</itemizedlist>
+</para>
+
+<para>
+Documentation copyright 2008-2011 Rene Landert <email>rene.landert@bluewin.ch</email>
+</para>
+
+<!-- TRANS:CREDIT_FOR_TRANSLATORS -->
+
+&underFDL;               <!-- FDL: do not remove -->
+
+<!-- Determine which license your application is licensed under, 
+     and delete all the remaining licenses below:
+
+     (NOTE:  All documentation are licensed under the FDL, 
+     regardless of what license the application uses) -->
+
+&underGPL;        	 <!-- GPL License -->
+&underBSDLicense;        <!-- BSD License -->
+&underArtisticLicense;   <!-- BSD Artistic License -->
+&underX11License;        <!-- X11 License  -->
+
+</chapter>
+
+<appendix id="installation">
+<title>Installation</title>
+
+<sect1 id="getting-kchildlock">
+<title>How to obtain &kchildlock;</title>
+<para>
+You can get kchildlock from <ulink url="http://www.kde-apps.org/">the KDE applications home page</ulink> or from <ulink url="http://sourceforge.net/projects/kchildlock/">The &kchildlock; home page</ulink>.
+</para>
+</sect1>
+
+<sect1 id="requirements">
+<title>Requirements</title>
+
+<!--
+List any special requirements for your application here. This should include:
+.Libraries or other software that is not included in kdesupport,
+kdelibs, or kdebase.
+.Hardware requirements like amount of RAM, disk space, graphics card
+capabilities, screen resolution, special expansion cards, etc.
+.Operating systems the app will run on. If your app is designed only for a
+specific OS, (you wrote a graphical LILO configurator for example) put this
+information here.
+-->
+
+<para>
+In order to successfully use &kchildlock;, you need &kde; 4.x. and the package 'ConsoleKit'.
+</para>
+
+<para>
+All required libraries as well as &kchildlock; itself can be found
+on <ulink url="http://sourceforge.net/projects/kchildlock/">The &kchildlock; home page</ulink>.
+</para>
+
+<!-- For a list of updates, you may refer to the application web site
+or the ChangeLog file, or ... -->
+<para>
+You can find a list of changes at the same site.
+</para>
+</sect1>
+
+<sect1 id="compilation">
+<title>Compilation and Installation</title>
+<para>
+In order to compile and install kchildlock on your system, do the following steps
+</para>
+
+   <itemizedlist>
+    <listitem>
+     <para>
+`cd' to the directory containing the package's source code.
+     </para>
+    </listitem> 
+    <listitem>
+     <para>
+Type `cmake -G KDevelop3 -DCMAKE_BUILD_TYPE=Release -DCMAKE_INSTALL_PREFIX=/usr 
+    -DDATA_INSTALL_DIR=/usr/share/kde4/apps -DICON_INSTALL_DIR=/usr/share/icons' 
+    to configure the package for your environment. You may have to adapt the
+    paths to your linux installation.</para>
+    </listitem> 
+    <listitem>
+     <para>
+Type 'make' to compile the package.</para>
+    </listitem> 
+    <listitem>
+     <para>
+Type `make install' to install the programs and any data files and documentation.
+      This has to be done as root user.
+     </para>
+    </listitem> 
+</itemizedlist>
+
+</sect1>
+
+</appendix>
+
+&documentation.index;
+</book>
+
+<!--
+Local Variables:
+mode: sgml
+sgml-minimize-attributes:nil
+sgml-general-insert-case:lower
+sgml-indent-step:0
+sgml-indent-data:nil
+End:
+
+vim:tabstop=2:shiftwidth=2:expandtab 
+-->
+

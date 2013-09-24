@@ -1,0 +1,36 @@
+cd
+cd kchildlock
+./cleanup_src
+cd ..
+
+rm -r kchildlock-0.80.1
+cp -r kchildlock kchildlock-0.80.1
+rm -r kchildlock-0.80.1/CMakeFiles
+rm -r kchildlock-0.80.1/CMakeTmp
+rm -r kchildlock-0.80.1/lib
+rm  kchildlock-0.80.1/CMakeCache.txt
+rm  kchildlock-0.80.1/install_manifest.txt
+rm  kchildlock-0.80.1/kchildlock.kdev*
+rm -r kchildlock-0.80.1/lib
+rm -r kchildlock-0.80.1/daemon/CMakeFiles
+rm  kchildlock-0.80.1/daemon/KchildlockDaemon.moc
+rm  kchildlock-0.80.1/daemon/kded_kchildlock_automoc.cpp.files
+rm  kchildlock-0.80.1/daemon/kded_kchildlockdaemon_automoc.cpp.files
+rm -r kchildlock-0.80.1/kcmodule/CMakeFiles
+rm  kchildlock-0.80.1/kcmodule/KchildlockConf.moc
+rm  kchildlock-0.80.1/kcmodule/KchildlockKCM.moc
+rm  kchildlock-0.80.1/kcmodule/kcm_kchildlock_automoc.cpp.files
+rm  kchildlock-0.80.1/kcmodule/moc_KchildlockSlots.cpp
+rm -r kchildlock-0.80.1/common/CMakeFiles
+rm -r kchildlock-0.80.1/doc/CMakeFiles
+rm -r kchildlock-0.80.1/po/CMakeFiles
+rm  kchildlock-0.80.1.tar.gz
+
+tar cvfz kchildlock-0.80.1.tar.gz kchildlock-0.80.1
+
+cp kchildlock-0.80.1.tar.gz /home/rene/rpmbuild/SOURCES/
+
+cd
+cd rpmbuild/
+rpmbuild -ba --target i386 SPECS/kchildlock-0.80.1.spec 
+

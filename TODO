@@ -1,0 +1,14 @@
+Work still todo:
+================
+
+* kcfg file: min max tooltip whatsthis
+* kchildlockkcm.cpp : filename rc filename
+* das Einlesen der alten Konfigurationsdateien (Upgrade)
+* make setup window smaller when not called by root
+* non root user can display settings (read only)
+* future: Zieht man den Balken links übers Fenster und lässt
+  die Maus gedrückt, so wird der Balken sofort wieder verschoben, wenn man
+  nach rechts fährt, auch wenn die Maus noch nicht wieder im Bereich ist.
+* future: osd display with remaining time (like amarok)
+* future: gui : add user / add group
+* tooltips

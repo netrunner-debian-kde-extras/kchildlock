@@ -1,0 +1,4 @@
+[General]
+enable_restrictions=false
+enable_systray=false
+scaninterval=60

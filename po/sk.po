@@ -1,0 +1,1966 @@
+# Slovak translations for kchildlock package
+# Slovenské preklady pre balík kchildlock.
+# Copyright (C) 2010 THE kchildlock'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the kchildlock package.
+#
+# Slavko <linux@slavino.sk>, 2010, 2011.
+# Rene Landert <rene.landert@bluewin.ch>, 2011.
+msgid ""
+msgstr ""
+"Project-Id-Version: kchildlock 0.76.4\n"
+"Report-Msgid-Bugs-To: http://sourceforge.net/kchildlock\n"
+"POT-Creation-Date: 2011-05-06 21:36+0200\n"
+"PO-Revision-Date: 2011-04-25 11:52+0200\n"
+"Last-Translator: Rene Landert <rene.landert@bluewin.ch>\n"
+"Language-Team: French <kde-i18n-de@kde.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: sk\n"
+"Plural-Forms: nplurals=3; plural=(n==1) ? 0 : (n>=2 && n<=4) ? 1 : 2;\n"
+"X-Generator: Lokalize 1.0\n"
+
+#: daemon/KchildlockDaemon.cpp:45
+msgid "Kchildlock Daemon"
+msgstr "Démon Kchildlock"
+
+#: daemon/KchildlockDaemon.cpp:46
+msgid "A Daemon for Kchildlock for KDE4"
+msgstr "Démon Kchildlock pre KDE4"
+
+#: daemon/KchildlockDaemon.cpp:47 kcmodule/KchildlockKCM.cpp:61
+msgid "(c), 2011 Rene Landert"
+msgstr "(c), 2011 Rene Landert"
+
+#: daemon/KchildlockDaemon.cpp:52 kcmodule/KchildlockKCM.cpp:66
+msgid "Rene Landert"
+msgstr "Rene Landert"
+
+#: daemon/KchildlockDaemon.cpp:52
+msgid "Maintainer"
+msgstr "Správca"
+
+#: daemon/systray_status.cpp:81 daemon/systray_status.cpp:84
+msgid "KChildlock - Status Display for User Restrictions"
+msgstr "KChildlock – Stavový displej Obmedzení používateľa"
+
+#: daemon/systray_status.cpp:86
+msgid "KChildlock - Time Restrictions for Children"
+msgstr "KChildlock – Časové obmedzenia detí"
+
+#: daemon/systray_status.cpp:87
+msgid "Show Restrictions"
+msgstr "Zobraziť obmedzenia"
+
+#: daemon/systray_status.cpp:90
+msgid "KDE-Service KChildlock"
+msgstr "KDE-Service KChildlock"
+
+#: daemon/systray_status.cpp:119
+msgid "          You have currently no limitations!"
+msgstr "          Nemáte žiadne obmedzenia!"
+
+#: daemon/warn_finishapp.cpp:96 daemon/warn_finishapp.cpp:102
+#: daemon/warn_finishapp.cpp:108 daemon/warn_finishapp.cpp:114
+msgid "The Usage time for your application '"
+msgstr "Váš čas použitia aplikácie '"
+
+#: daemon/warn_finishapp.cpp:97
+msgid ""
+"' is restricted. The application will be automatically terminated in 15 "
+"minutes."
+msgstr "' je obmedzený. Aplikácia bude automaticky ukončená za 15 minút."
+
+#: daemon/warn_finishapp.cpp:98 daemon/warn_finishapp.cpp:104
+#: daemon/warn_finishapp.cpp:110 daemon/warn_finishapp.cpp:116
+#: daemon/warn_logout.cpp:122 daemon/warn_logout.cpp:128
+#: daemon/warn_logout.cpp:134 daemon/warn_logout.cpp:140
+msgid "Children Lock"
+msgstr "Detský zámok"
+
+#: daemon/warn_finishapp.cpp:103
+msgid ""
+"' is restricted. The application will be automatically terminated in 10 "
+"minutes."
+msgstr "' je obmedzený. Aplikácia bude automaticky ukončená za 10 minút."
+
+#: daemon/warn_finishapp.cpp:109
+msgid ""
+"' is restricted. The application will be automatically terminated in 5 "
+"minutes."
+msgstr "' je obmedzený. Aplikácia bude automaticky ukončená za 5 minút."
+
+#: daemon/warn_finishapp.cpp:115
+msgid ""
+"' is restricted. The application will be automatically terminated in 1 "
+"minute."
+msgstr "' je obmedzený. Aplikácia bude automaticky ukončená za 1 minútu."
+
+#: daemon/warn_logout.cpp:121
+msgid ""
+"The Usage time for you is restricted. You will be automatically logged out "
+"in 15 minutes."
+msgstr ""
+"Váš čas používania počítača je obmedzený. Budete automaticky odhlásený za 15 "
+"minút."
+
+#: daemon/warn_logout.cpp:127
+msgid ""
+"The Usage time for you is restricted. You will be automatically logged out "
+"in 10 minutes."
+msgstr ""
+"Váš čas používania počítača je obmedzený. Budete automaticky odhlásený za 10 "
+"minút."
+
+#: daemon/warn_logout.cpp:133
+msgid ""
+"The Usage time for you is restricted. You will be automatically logged out "
+"in 5 minutes."
+msgstr ""
+"Váš čas používania počítača je obmedzený. Budete automaticky odhlásený za 5 "
+"minút."
+
+#: daemon/warn_logout.cpp:139
+msgid ""
+"The Usage time for you is restricted. You will be automatically logged out "
+"in 1 minute."
+msgstr ""
+"Váš čas používania počítača je obmedzený. Budete automaticky odhlásený za 1 "
+"minútu."
+
+#: kcmodule/KchildlockKCM.cpp:59
+msgid "Kchildlock Configuration"
+msgstr "Nastavenie Kchildlock"
+
+#: kcmodule/KchildlockKCM.cpp:60
+msgid "A configurator for Kchildlock"
+msgstr "Nastavenia pre Kchildlock"
+
+#: kcmodule/KchildlockKCM.cpp:62
+msgid ""
+"From this module, you can configure the Kchildlock Daemon, which restricts "
+"the usage time of the computer and of applications per day and per week for "
+"selected users. "
+msgstr ""
+"Pomocou tohoto modulu môžete nastaviť démon Kchildlock, ktorý obmedzuje čas "
+"použitia počítača a aplikácií počas dňa alebo týždňa pre vybraných "
+"používateľov. "
+
+#: kcmodule/KchildlockKCM.cpp:66
+msgid "Main Developer"
+msgstr "Hlavný vývojár"
+
+#: kcmodule/KchildlockKCM.cpp:71
+msgid ""
+"<h1>Kchildlock configuration</h1> <p>This module lets you configure "
+"Kchildlock. Kchildlock is a daemon (so it runs in background) that is "
+"started upon KDE startup.</p> <p>Kchildlock has several levels of "
+"configuration: a general one, with common settings, a list of users or "
+"groups for whom you can configure the restrictions. Each tab for the user or "
+"group lets you edit the restriction details. You do not have to restart "
+"Kchildlock, just click on the button 'Apply', and you are done.</p>"
+msgstr ""
+"<h1>Nastavenie Kchildlock</h1> <p>Tento modul umožňuje nastavenie "
+"Kchildlock. Kchildlock je démon (takže beží na pozadí), ktorý je spúšťaný "
+"pri štarte KDE.</p> <p>Kchildlock má niekoľko úrovní nastavenia: všeobecnú, "
+"so spoločnými nastaveniami, zoznam používateľov a skupín, ktorým možno "
+"nastaviť obmedzenia. Každá záložka používateľa alebo skupiny umožňuje "
+"nastaviť podrobnosti obmedzení. Nemusíte reštartovať Kchildlock, stačí "
+"kliknúť na tlačidlo 'Použiť', čím sú nastavenia použité.</p>"
+
+#: kcmodule/KchildlockKCM.cpp:111
+msgid "General"
+msgstr "Všeobecné"
+
+#: kcmodule/KchildlockKCM.cpp:119
+msgid "User"
+msgstr "Používateľ"
+
+#: kcmodule/KchildlockKCM.cpp:127
+msgid "Group"
+msgstr "Skupina"
+
+#: kcmodule/KchildlockKCM.cpp:129
+msgid "Groupname"
+msgstr "Meno skupiny"
+
+#: kcmodule/KchildlockKCM.cpp:130
+msgid "enable Restriction for this Group"
+msgstr "zapnúť nastavenia tejto skupiny"
+
+#: kcmodule/KchildlockKCM.cpp:289
+msgid "Select Group"
+msgstr "Vyberte skupinu"
+
+#: kcmodule/KchildlockKCM.cpp:291
+msgid "Select Group for Restrictions"
+msgstr "Vyberte obmedzovanú skupinu"
+
+#. i18n: file: kcmodule/deleteUserGroup.ui:14
+#. i18n: ectx: property (windowTitle), widget (QDialog, deleteUserGroupDialog)
+#: kcmodule/KchildlockKCM.cpp:384 rc.cpp:79
+msgid "Delete restrictions"
+msgstr "Odstrániť obmedzenia"
+
+#: kcmodule/KchildlockKCM.cpp:386
+msgid "Delete Restrictions for Group"
+msgstr "Odstrániť obmedzenia skupiny"
+
+#: kcmodule/KchildlockKCM.cpp:451
+msgid "Export KChildlock Profiles"
+msgstr "Exportovať profil KChildlock"
+
+#: kcmodule/KchildlockKCM.cpp:486
+msgid "Import KChildlock Profiles"
+msgstr "Importovať profil KChildlock"
+
+#: kcmodule/KchildlockKCM.cpp:620
+msgid ""
+"<h1>Kchildlock configuration</h1><p>This module allows you to configure your "
+"childrens restriction settings.</p>"
+msgstr ""
+"<h1>Nastavenie Kchildlock</h1><p>Tento modul umožňuje nastaviť obmedzenia "
+"vašich detí.</p>"
+
+#. i18n: file: common/kchildlock_settings.kcfg:17
+#. i18n: ectx: tooltip, entry (scaninterval), group (General)
+#: rc.cpp:4
+msgid "Scaninterval for the Monitor Daemon"
+msgstr "Interval kontroly pre Monitorovací démon"
+
+#. i18n: file: daemon/userInfoPage.ui:20
+#. i18n: ectx: property (windowTitle), widget (QWidget, UserInfoPage)
+#: rc.cpp:7
+msgid "KChildlock Status Display"
+msgstr "KChildlock – Stavový displej"
+
+#. i18n: file: daemon/userInfoPage.ui:55
+#. i18n: ectx: property (text), widget (QLabel, label)
+#: rc.cpp:10
+msgid "Status Display for KChildlock Restrictions"
+msgstr "Stavový displej obmedzení KChildlock"
+
+#. i18n: file: daemon/userInfoPage.ui:89
+#. i18n: ectx: property (text), widget (QLabel, lbl_MainText)
+#: rc.cpp:13
+msgid "You may use the Computer today"
+msgstr "Dnes môžete použiť počítač"
+
+#. i18n: file: daemon/userInfoPage.ui:96
+#. i18n: ectx: property (text), widget (QLabel, label_3)
+#: rc.cpp:16
+msgid "between"
+msgstr "medzi"
+
+#. i18n: file: daemon/userInfoPage.ui:110
+#. i18n: ectx: property (text), widget (QLabel, label_5)
+#: rc.cpp:20
+msgid "and"
+msgstr "a"
+
+#. i18n: file: daemon/userInfoPage.ui:161
+#. i18n: ectx: property (text), widget (QLabel, label_9)
+#: rc.cpp:24
+msgid "You may use the Computer today for max."
+msgstr "Dnes môžete použiť počítač najviac"
+
+#. i18n: file: daemon/userInfoPage.ui:175
+#. i18n: ectx: property (text), widget (QLabel, label_7)
+#. i18n: file: daemon/userInfoPage.ui:240
+#. i18n: ectx: property (text), widget (QLabel, label_14)
+#. i18n: file: daemon/userInfoPage.ui:361
+#. i18n: ectx: property (text), widget (QLabel, label_21)
+#. i18n: file: daemon/userInfoPage.ui:426
+#. i18n: ectx: property (text), widget (QLabel, label_27)
+#. i18n: file: daemon/userInfoPage.ui:175
+#. i18n: ectx: property (text), widget (QLabel, label_7)
+#. i18n: file: daemon/userInfoPage.ui:240
+#. i18n: ectx: property (text), widget (QLabel, label_14)
+#. i18n: file: daemon/userInfoPage.ui:361
+#. i18n: ectx: property (text), widget (QLabel, label_21)
+#. i18n: file: daemon/userInfoPage.ui:426
+#. i18n: ectx: property (text), widget (QLabel, label_27)
+#: rc.cpp:28 rc.cpp:39 rc.cpp:54 rc.cpp:65
+msgid "hours and"
+msgstr "hodín a "
+
+#. i18n: file: daemon/userInfoPage.ui:189
+#. i18n: ectx: property (text), widget (QLabel, label_11)
+#. i18n: file: daemon/userInfoPage.ui:254
+#. i18n: ectx: property (text), widget (QLabel, label_16)
+#. i18n: file: daemon/userInfoPage.ui:375
+#. i18n: ectx: property (text), widget (QLabel, label_23)
+#. i18n: file: daemon/userInfoPage.ui:440
+#. i18n: ectx: property (text), widget (QLabel, label_29)
+#. i18n: file: daemon/userInfoPage.ui:189
+#. i18n: ectx: property (text), widget (QLabel, label_11)
+#. i18n: file: daemon/userInfoPage.ui:254
+#. i18n: ectx: property (text), widget (QLabel, label_16)
+#. i18n: file: daemon/userInfoPage.ui:375
+#. i18n: ectx: property (text), widget (QLabel, label_23)
+#. i18n: file: daemon/userInfoPage.ui:440
+#. i18n: ectx: property (text), widget (QLabel, label_29)
+#: rc.cpp:32 rc.cpp:43 rc.cpp:58 rc.cpp:69
+msgid "minutes"
+msgstr "minút"
+
+#. i18n: file: daemon/userInfoPage.ui:226
+#. i18n: ectx: property (text), widget (QLabel, label_12)
+#. i18n: file: daemon/userInfoPage.ui:412
+#. i18n: ectx: property (text), widget (QLabel, label_25)
+#. i18n: file: daemon/userInfoPage.ui:226
+#. i18n: ectx: property (text), widget (QLabel, label_12)
+#. i18n: file: daemon/userInfoPage.ui:412
+#. i18n: ectx: property (text), widget (QLabel, label_25)
+#: rc.cpp:35 rc.cpp:61
+msgid "remaining time:"
+msgstr "zostávajúci čas:"
+
+#. i18n: file: daemon/userInfoPage.ui:303
+#. i18n: ectx: property (format), widget (QProgressBar, bar_TODAYremain)
+#. i18n: file: daemon/userInfoPage.ui:489
+#. i18n: ectx: property (format), widget (QProgressBar, bar_THISWEEKremain)
+#. i18n: file: daemon/userInfoPage.ui:303
+#. i18n: ectx: property (format), widget (QProgressBar, bar_TODAYremain)
+#. i18n: file: daemon/userInfoPage.ui:489
+#. i18n: ectx: property (format), widget (QProgressBar, bar_THISWEEKremain)
+#: rc.cpp:47 rc.cpp:73
+#, no-c-format
+msgid "%p% used"
+msgstr "%p% využitých"
+
+#. i18n: file: daemon/userInfoPage.ui:347
+#. i18n: ectx: property (text), widget (QLabel, label_19)
+#: rc.cpp:50
+msgid "You may use the Computer this week for max."
+msgstr "Tento týždeň môžete počítač použiť najviac"
+
+#. i18n: file: daemon/userInfoPage.ui:533
+#. i18n: ectx: property (text), widget (QPushButton, ButtonOK)
+#: rc.cpp:76
+msgid "OK"
+msgstr "OK"
+
+#. i18n: file: kcmodule/deleteUserGroup.ui:29
+#. i18n: ectx: property (text), widget (QLabel, label_text)
+#: rc.cpp:82
+msgid "Delete Restrictions for User"
+msgstr "Odstrániť obmedzenia používateľa"
+
+#. i18n: file: kcmodule/generalPage.ui:14
+#. i18n: ectx: property (windowTitle), widget (QWidget, generalPage)
+#: rc.cpp:85
+msgid "General Settings for kchildlock"
+msgstr "Všeobecné nastavenia pre Kchildlock"
+
+#. i18n: file: kcmodule/generalPage.ui:56
+#. i18n: ectx: property (toolTip), widget (QCheckBox, kcfg_enable_restrictions)
+#: rc.cpp:88
+msgid "Enables or disables the restrictions for all users and groups"
+msgstr "Zapnúť/vypnúť obmedzenia všetkých používateľov a skupín"
+
+#. i18n: file: kcmodule/generalPage.ui:62
+#. i18n: ectx: property (text), widget (QCheckBox, kcfg_enable_restrictions)
+#: rc.cpp:91
+msgid "Enable the restrictions"
+msgstr "Zapnúť obmedzenia"
+
+#. i18n: file: kcmodule/generalPage.ui:69
+#. i18n: ectx: property (toolTip), widget (QCheckBox, kcfg_enable_systray)
+#: rc.cpp:94
+msgid "Show a system tray icon to the user with remaining time information"
+msgstr ""
+"Zobraziť ikonu oznamovacej oblasti používateľa s informáciou o zostávajúcom "
+"čase"
+
+#. i18n: file: kcmodule/generalPage.ui:75
+#. i18n: ectx: property (text), widget (QCheckBox, kcfg_enable_systray)
+#: rc.cpp:97
+msgid "Enable System Tray Icon for User"
+msgstr "Zapnúť používateľovi ikonu oznamovacej oblasti"
+
+#. i18n: file: kcmodule/generalPage.ui:94
+#. i18n: ectx: property (toolTip), widget (QSpinBox, kcfg_scaninterval)
+#: rc.cpp:100
+msgid "The time interval between the checks"
+msgstr "Časový interval medzi kontrolami"
+
+#. i18n: file: kcmodule/generalPage.ui:113
+#. i18n: ectx: property (toolTip), widget (QLabel, textLabel2)
+#: rc.cpp:103
+msgid "This is the time interval between the checks"
+msgstr "Časový interval medzi kontrolami"
+
+#. i18n: file: kcmodule/generalPage.ui:116
+#. i18n: ectx: property (text), widget (QLabel, textLabel2)
+#: rc.cpp:106
+msgid "Scan Interval in seconds"
+msgstr "Interval kontroly [s]"
+
+#. i18n: file: kcmodule/selectUserGroup.ui:14
+#. i18n: ectx: property (windowTitle), widget (QDialog, selectUserGroupDialog)
+#: rc.cpp:109
+msgid "Select User"
+msgstr "Vyberte používateľa"
+
+#. i18n: file: kcmodule/selectUserGroup.ui:26
+#. i18n: ectx: property (text), widget (QLabel, label)
+#: rc.cpp:112
+msgid "Select User for Restrictions"
+msgstr "Vyberte obmedzovaného používateľa"
+
+#. i18n: file: kcmodule/selectUserGroup.ui:45
+#. i18n: ectx: property (toolTip), widget (QComboBox, comboBox)
+#: rc.cpp:115
+msgid ""
+"Selects a user or a group of users for which you want to apply the "
+"restrictions."
+msgstr ""
+"Vyberá používateľa alebo skupinu používateľov, na ktorých chcete aplikovať "
+"obmedzenia."
+
+#. i18n: file: kcmodule/usergroupPage.ui:14
+#. i18n: ectx: property (windowTitle), widget (QWidget, usergroupPage)
+#: rc.cpp:118
+msgid "User and Group Settings for kchildlock"
+msgstr "Používateľ a skupina pre KChildlock"
+
+#. i18n: file: kcmodule/usergroupPage.ui:80
+#. i18n: ectx: property (toolTip), widget (QCheckBox, kcfg_enabled)
+#: rc.cpp:121
+msgid "Enable or disable the restrictions for this user or group."
+msgstr "Zapnúť/vypnúť obmedzenia používateľa alebo skupiny"
+
+#. i18n: file: kcmodule/usergroupPage.ui:83
+#. i18n: ectx: property (text), widget (QCheckBox, kcfg_enabled)
+#: rc.cpp:124
+msgid "enable Restriction for this User"
+msgstr "zapnúť obmedzenia tohoto používateľa"
+
+#. i18n: file: kcmodule/usergroupPage.ui:101
+#. i18n: ectx: attribute (title), widget (QWidget, tab_0)
+#: rc.cpp:128
+msgid "Login Times"
+msgstr "Časy prihlásenia"
+
+#. i18n: file: kcmodule/usergroupPage.ui:131
+#. i18n: ectx: property (text), widget (QLabel, label_2)
+#: rc.cpp:131
+msgid "Restricted Login Times depending on Weekdays"
+msgstr "Obmedzený čas prihlásenia v závislosti na dni týždňa"
+
+#. i18n: file: kcmodule/usergroupPage.ui:141
+#. i18n: ectx: property (toolTip), widget (QRadioButton, kcfg_sameRestrictLT)
+#. i18n: file: kcmodule/usergroupPage.ui:2967
+#. i18n: ectx: property (toolTip), widget (QRadioButton, kcfg_sameRestrictTD)
+#. i18n: file: kcmodule/usergroupPage.ui:141
+#. i18n: ectx: property (toolTip), widget (QRadioButton, kcfg_sameRestrictLT)
+#. i18n: file: kcmodule/usergroupPage.ui:2967
+#. i18n: ectx: property (toolTip), widget (QRadioButton, kcfg_sameRestrictTD)
+#: rc.cpp:134 rc.cpp:333
+msgid "The restrictions on this page apply to all weekdays."
+msgstr "Obmedzenia na tejto stránke použiť na všetky dni týždňa"
+
+#. i18n: file: kcmodule/usergroupPage.ui:144
+#. i18n: ectx: property (text), widget (QRadioButton, kcfg_sameRestrictLT)
+#. i18n: file: kcmodule/usergroupPage.ui:2970
+#. i18n: ectx: property (text), widget (QRadioButton, kcfg_sameRestrictTD)
+#. i18n: file: kcmodule/usergroupPage.ui:144
+#. i18n: ectx: property (text), widget (QRadioButton, kcfg_sameRestrictLT)
+#. i18n: file: kcmodule/usergroupPage.ui:2970
+#. i18n: ectx: property (text), widget (QRadioButton, kcfg_sameRestrictTD)
+#: rc.cpp:137 rc.cpp:336
+msgid "same restrictions for every day"
+msgstr "Rovnaké každý deň"
+
+#. i18n: file: kcmodule/usergroupPage.ui:181
+#. i18n: ectx: property (text), widget (QLabel, textLabel00_10)
+#. i18n: file: kcmodule/usergroupPage.ui:3007
+#. i18n: ectx: property (text), widget (QLabel, textLabel00_10)
+#. i18n: file: kcmodule/usergroupPage.ui:181
+#. i18n: ectx: property (text), widget (QLabel, textLabel00_10)
+#. i18n: file: kcmodule/usergroupPage.ui:3007
+#. i18n: ectx: property (text), widget (QLabel, textLabel00_10)
+#: rc.cpp:140 rc.cpp:339
+msgid "every day"
+msgstr "každý deň"
+
+#. i18n: file: kcmodule/usergroupPage.ui:422
+#. i18n: ectx: property (toolTip), widget (QGraphicsView, kcfg_DAYgraphics)
+#. i18n: file: kcmodule/usergroupPage.ui:762
+#. i18n: ectx: property (toolTip), widget (QGraphicsView, kcfg_MONgraphics)
+#. i18n: file: kcmodule/usergroupPage.ui:1086
+#. i18n: ectx: property (toolTip), widget (QGraphicsView, kcfg_TUEgraphics)
+#. i18n: file: kcmodule/usergroupPage.ui:1410
+#. i18n: ectx: property (toolTip), widget (QGraphicsView, kcfg_WEDgraphics)
+#. i18n: file: kcmodule/usergroupPage.ui:1734
+#. i18n: ectx: property (toolTip), widget (QGraphicsView, kcfg_THUgraphics)
+#. i18n: file: kcmodule/usergroupPage.ui:2058
+#. i18n: ectx: property (toolTip), widget (QGraphicsView, kcfg_FRIgraphics)
+#. i18n: file: kcmodule/usergroupPage.ui:2382
+#. i18n: ectx: property (toolTip), widget (QGraphicsView, kcfg_SATgraphics)
+#. i18n: file: kcmodule/usergroupPage.ui:2706
+#. i18n: ectx: property (toolTip), widget (QGraphicsView, kcfg_SUNgraphics)
+#. i18n: file: kcmodule/usergroupPage.ui:4414
+#. i18n: ectx: property (toolTip), widget (QGraphicsView, kcfg_App1graphics)
+#. i18n: file: kcmodule/usergroupPage.ui:4808
+#. i18n: ectx: property (toolTip), widget (QGraphicsView, kcfg_App2graphics)
+#. i18n: file: kcmodule/usergroupPage.ui:5202
+#. i18n: ectx: property (toolTip), widget (QGraphicsView, kcfg_App3graphics)
+#. i18n: file: kcmodule/usergroupPage.ui:5596
+#. i18n: ectx: property (toolTip), widget (QGraphicsView, kcfg_App4graphics)
+#. i18n: file: kcmodule/usergroupPage.ui:5990
+#. i18n: ectx: property (toolTip), widget (QGraphicsView, kcfg_App5graphics)
+#. i18n: file: kcmodule/usergroupPage.ui:422
+#. i18n: ectx: property (toolTip), widget (QGraphicsView, kcfg_DAYgraphics)
+#. i18n: file: kcmodule/usergroupPage.ui:762
+#. i18n: ectx: property (toolTip), widget (QGraphicsView, kcfg_MONgraphics)
+#. i18n: file: kcmodule/usergroupPage.ui:1086
+#. i18n: ectx: property (toolTip), widget (QGraphicsView, kcfg_TUEgraphics)
+#. i18n: file: kcmodule/usergroupPage.ui:1410
+#. i18n: ectx: property (toolTip), widget (QGraphicsView, kcfg_WEDgraphics)
+#. i18n: file: kcmodule/usergroupPage.ui:1734
+#. i18n: ectx: property (toolTip), widget (QGraphicsView, kcfg_THUgraphics)
+#. i18n: file: kcmodule/usergroupPage.ui:2058
+#. i18n: ectx: property (toolTip), widget (QGraphicsView, kcfg_FRIgraphics)
+#. i18n: file: kcmodule/usergroupPage.ui:2382
+#. i18n: ectx: property (toolTip), widget (QGraphicsView, kcfg_SATgraphics)
+#. i18n: file: kcmodule/usergroupPage.ui:2706
+#. i18n: ectx: property (toolTip), widget (QGraphicsView, kcfg_SUNgraphics)
+#. i18n: file: kcmodule/usergroupPage.ui:4414
+#. i18n: ectx: property (toolTip), widget (QGraphicsView, kcfg_App1graphics)
+#. i18n: file: kcmodule/usergroupPage.ui:4808
+#. i18n: ectx: property (toolTip), widget (QGraphicsView, kcfg_App2graphics)
+#. i18n: file: kcmodule/usergroupPage.ui:5202
+#. i18n: ectx: property (toolTip), widget (QGraphicsView, kcfg_App3graphics)
+#. i18n: file: kcmodule/usergroupPage.ui:5596
+#. i18n: ectx: property (toolTip), widget (QGraphicsView, kcfg_App4graphics)
+#. i18n: file: kcmodule/usergroupPage.ui:5990
+#. i18n: ectx: property (toolTip), widget (QGraphicsView, kcfg_App5graphics)
+#: rc.cpp:154 rc.cpp:183 rc.cpp:206 rc.cpp:229 rc.cpp:252 rc.cpp:275
+#: rc.cpp:298 rc.cpp:321 rc.cpp:557 rc.cpp:586 rc.cpp:615 rc.cpp:644
+#: rc.cpp:673
+msgid ""
+"Drag the green bar to the right or left to change the lower and upper "
+"limit.\n"
+"You can either drag the whole time interval, or just a border.\n"
+"Green means allowed times, the red time area is disallowed,\n"
+"yellow is the border between these two areas."
+msgstr ""
+"Ťahať zelený pás vpravo alebo vľavo, na zmenu dolného a horného limitu.\n"
+"Môžete ťahať buď celý časový interval alebo len hranicu.\n"
+"Zelené znamená povolené časy a červené zakázané časy,\n"
+"žltá je hranica medzi týmito dvomi oblasťami."
+
+#. i18n: file: kcmodule/usergroupPage.ui:484
+#. i18n: ectx: property (toolTip), widget (QRadioButton, kcfg_diffRestrictLT)
+#. i18n: file: kcmodule/usergroupPage.ui:3102
+#. i18n: ectx: property (toolTip), widget (QRadioButton, kcfg_diffRestrictTD)
+#. i18n: file: kcmodule/usergroupPage.ui:484
+#. i18n: ectx: property (toolTip), widget (QRadioButton, kcfg_diffRestrictLT)
+#. i18n: file: kcmodule/usergroupPage.ui:3102
+#. i18n: ectx: property (toolTip), widget (QRadioButton, kcfg_diffRestrictTD)
+#: rc.cpp:160 rc.cpp:357
+msgid "The restrictions on this page are dependant of the weekday."
+msgstr "Obmedzenia na tejto stránke závisia na dni týždňa"
+
+#. i18n: file: kcmodule/usergroupPage.ui:487
+#. i18n: ectx: property (text), widget (QRadioButton, kcfg_diffRestrictLT)
+#: rc.cpp:163
+msgid "restrictions depend on weekday "
+msgstr "obmedzenia závisia na dni týždňa"
+
+#. i18n: file: kcmodule/usergroupPage.ui:521
+#. i18n: ectx: property (toolTip), widget (QCheckBox, kcfg_MONenabledLT)
+#. i18n: file: kcmodule/usergroupPage.ui:3139
+#. i18n: ectx: property (toolTip), widget (QCheckBox, kcfg_MONenabledTD)
+#. i18n: file: kcmodule/usergroupPage.ui:521
+#. i18n: ectx: property (toolTip), widget (QCheckBox, kcfg_MONenabledLT)
+#. i18n: file: kcmodule/usergroupPage.ui:3139
+#. i18n: ectx: property (toolTip), widget (QCheckBox, kcfg_MONenabledTD)
+#: rc.cpp:166 rc.cpp:363
+msgid "This checkbox enables the restrictions on Mondays."
+msgstr "Toto zaškrtávacie pole zapína obmedzenia počas pondelkov."
+
+#. i18n: file: kcmodule/usergroupPage.ui:524
+#. i18n: ectx: property (text), widget (QCheckBox, kcfg_MONenabledLT)
+#. i18n: file: kcmodule/usergroupPage.ui:3142
+#. i18n: ectx: property (text), widget (QCheckBox, kcfg_MONenabledTD)
+#. i18n: file: kcmodule/usergroupPage.ui:524
+#. i18n: ectx: property (text), widget (QCheckBox, kcfg_MONenabledLT)
+#. i18n: file: kcmodule/usergroupPage.ui:3142
+#. i18n: ectx: property (text), widget (QCheckBox, kcfg_MONenabledTD)
+#: rc.cpp:169 rc.cpp:366
+msgid "Monday"
+msgstr "Pondelok"
+
+#. i18n: file: kcmodule/usergroupPage.ui:845
+#. i18n: ectx: property (toolTip), widget (QCheckBox, kcfg_TUEenabledLT)
+#. i18n: file: kcmodule/usergroupPage.ui:3255
+#. i18n: ectx: property (toolTip), widget (QCheckBox, kcfg_TUEenabledTD)
+#. i18n: file: kcmodule/usergroupPage.ui:845
+#. i18n: ectx: property (toolTip), widget (QCheckBox, kcfg_TUEenabledLT)
+#. i18n: file: kcmodule/usergroupPage.ui:3255
+#. i18n: ectx: property (toolTip), widget (QCheckBox, kcfg_TUEenabledTD)
+#: rc.cpp:189 rc.cpp:384
+msgid "This checkbox enables the restrictions on Tuesdays."
+msgstr "Toto zaškrtávacie pole zapína obmedzenia počas utorkov."
+
+#. i18n: file: kcmodule/usergroupPage.ui:848
+#. i18n: ectx: property (text), widget (QCheckBox, kcfg_TUEenabledLT)
+#. i18n: file: kcmodule/usergroupPage.ui:3258
+#. i18n: ectx: property (text), widget (QCheckBox, kcfg_TUEenabledTD)
+#. i18n: file: kcmodule/usergroupPage.ui:848
+#. i18n: ectx: property (text), widget (QCheckBox, kcfg_TUEenabledLT)
+#. i18n: file: kcmodule/usergroupPage.ui:3258
+#. i18n: ectx: property (text), widget (QCheckBox, kcfg_TUEenabledTD)
+#: rc.cpp:192 rc.cpp:387
+msgid "Tuesday"
+msgstr "Utorok"
+
+#. i18n: file: kcmodule/usergroupPage.ui:1169
+#. i18n: ectx: property (toolTip), widget (QCheckBox, kcfg_WEDenabledLT)
+#. i18n: file: kcmodule/usergroupPage.ui:3371
+#. i18n: ectx: property (toolTip), widget (QCheckBox, kcfg_WEDenabledTD)
+#. i18n: file: kcmodule/usergroupPage.ui:1169
+#. i18n: ectx: property (toolTip), widget (QCheckBox, kcfg_WEDenabledLT)
+#. i18n: file: kcmodule/usergroupPage.ui:3371
+#. i18n: ectx: property (toolTip), widget (QCheckBox, kcfg_WEDenabledTD)
+#: rc.cpp:212 rc.cpp:405
+msgid "This checkbox enables the restrictions on Wednesdays."
+msgstr "Toto zaškrtávacie pole zapína obmedzenia počas stried."
+
+#. i18n: file: kcmodule/usergroupPage.ui:1172
+#. i18n: ectx: property (text), widget (QCheckBox, kcfg_WEDenabledLT)
+#. i18n: file: kcmodule/usergroupPage.ui:3374
+#. i18n: ectx: property (text), widget (QCheckBox, kcfg_WEDenabledTD)
+#. i18n: file: kcmodule/usergroupPage.ui:1172
+#. i18n: ectx: property (text), widget (QCheckBox, kcfg_WEDenabledLT)
+#. i18n: file: kcmodule/usergroupPage.ui:3374
+#. i18n: ectx: property (text), widget (QCheckBox, kcfg_WEDenabledTD)
+#: rc.cpp:215 rc.cpp:408
+msgid "Wednesday"
+msgstr "Streda"
+
+#. i18n: file: kcmodule/usergroupPage.ui:1493
+#. i18n: ectx: property (toolTip), widget (QCheckBox, kcfg_THUenabledLT)
+#. i18n: file: kcmodule/usergroupPage.ui:3487
+#. i18n: ectx: property (toolTip), widget (QCheckBox, kcfg_THUenabledTD)
+#. i18n: file: kcmodule/usergroupPage.ui:1493
+#. i18n: ectx: property (toolTip), widget (QCheckBox, kcfg_THUenabledLT)
+#. i18n: file: kcmodule/usergroupPage.ui:3487
+#. i18n: ectx: property (toolTip), widget (QCheckBox, kcfg_THUenabledTD)
+#: rc.cpp:235 rc.cpp:426
+msgid "This checkbox enables the restrictions on Thursdays."
+msgstr "Toto zaškrtávacie pole zapína obmedzenia počas štvrtkov."
+
+#. i18n: file: kcmodule/usergroupPage.ui:1496
+#. i18n: ectx: property (text), widget (QCheckBox, kcfg_THUenabledLT)
+#. i18n: file: kcmodule/usergroupPage.ui:3490
+#. i18n: ectx: property (text), widget (QCheckBox, kcfg_THUenabledTD)
+#. i18n: file: kcmodule/usergroupPage.ui:1496
+#. i18n: ectx: property (text), widget (QCheckBox, kcfg_THUenabledLT)
+#. i18n: file: kcmodule/usergroupPage.ui:3490
+#. i18n: ectx: property (text), widget (QCheckBox, kcfg_THUenabledTD)
+#: rc.cpp:238 rc.cpp:429
+msgid "Thursday"
+msgstr "Štvrtok"
+
+#. i18n: file: kcmodule/usergroupPage.ui:1817
+#. i18n: ectx: property (toolTip), widget (QCheckBox, kcfg_FRIenabledLT)
+#. i18n: file: kcmodule/usergroupPage.ui:3600
+#. i18n: ectx: property (toolTip), widget (QCheckBox, kcfg_FRIenabledTD)
+#. i18n: file: kcmodule/usergroupPage.ui:1817
+#. i18n: ectx: property (toolTip), widget (QCheckBox, kcfg_FRIenabledLT)
+#. i18n: file: kcmodule/usergroupPage.ui:3600
+#. i18n: ectx: property (toolTip), widget (QCheckBox, kcfg_FRIenabledTD)
+#: rc.cpp:258 rc.cpp:444
+msgid "This checkbox enables the restrictions on Fridays."
+msgstr "Toto zaškrtávacie pole zapína obmedzenia počas piatkov."
+
+#. i18n: file: kcmodule/usergroupPage.ui:1820
+#. i18n: ectx: property (text), widget (QCheckBox, kcfg_FRIenabledLT)
+#. i18n: file: kcmodule/usergroupPage.ui:3603
+#. i18n: ectx: property (text), widget (QCheckBox, kcfg_FRIenabledTD)
+#. i18n: file: kcmodule/usergroupPage.ui:1820
+#. i18n: ectx: property (text), widget (QCheckBox, kcfg_FRIenabledLT)
+#. i18n: file: kcmodule/usergroupPage.ui:3603
+#. i18n: ectx: property (text), widget (QCheckBox, kcfg_FRIenabledTD)
+#: rc.cpp:261 rc.cpp:447
+msgid "Friday"
+msgstr "Piatok"
+
+#. i18n: file: kcmodule/usergroupPage.ui:2141
+#. i18n: ectx: property (toolTip), widget (QCheckBox, kcfg_SATenabledLT)
+#. i18n: file: kcmodule/usergroupPage.ui:3716
+#. i18n: ectx: property (toolTip), widget (QCheckBox, kcfg_SATenabledTD)
+#. i18n: file: kcmodule/usergroupPage.ui:2141
+#. i18n: ectx: property (toolTip), widget (QCheckBox, kcfg_SATenabledLT)
+#. i18n: file: kcmodule/usergroupPage.ui:3716
+#. i18n: ectx: property (toolTip), widget (QCheckBox, kcfg_SATenabledTD)
+#: rc.cpp:281 rc.cpp:465
+msgid "This checkbox enables the restrictions on Saturdays."
+msgstr "Toto zaškrtávacie pole zapína obmedzenia počas sobôt."
+
+#. i18n: file: kcmodule/usergroupPage.ui:2144
+#. i18n: ectx: property (text), widget (QCheckBox, kcfg_SATenabledLT)
+#. i18n: file: kcmodule/usergroupPage.ui:3719
+#. i18n: ectx: property (text), widget (QCheckBox, kcfg_SATenabledTD)
+#. i18n: file: kcmodule/usergroupPage.ui:2144
+#. i18n: ectx: property (text), widget (QCheckBox, kcfg_SATenabledLT)
+#. i18n: file: kcmodule/usergroupPage.ui:3719
+#. i18n: ectx: property (text), widget (QCheckBox, kcfg_SATenabledTD)
+#: rc.cpp:284 rc.cpp:468
+msgid "Saturday"
+msgstr "Sobota"
+
+#. i18n: file: kcmodule/usergroupPage.ui:2465
+#. i18n: ectx: property (toolTip), widget (QCheckBox, kcfg_SUNenabledLT)
+#. i18n: file: kcmodule/usergroupPage.ui:3832
+#. i18n: ectx: property (toolTip), widget (QCheckBox, kcfg_SUNenabledTD)
+#. i18n: file: kcmodule/usergroupPage.ui:2465
+#. i18n: ectx: property (toolTip), widget (QCheckBox, kcfg_SUNenabledLT)
+#. i18n: file: kcmodule/usergroupPage.ui:3832
+#. i18n: ectx: property (toolTip), widget (QCheckBox, kcfg_SUNenabledTD)
+#: rc.cpp:304 rc.cpp:486
+msgid "This checkbox enables the restrictions on Sundays."
+msgstr "Toto zaškrtávacie pole zapína obmedzenia počas nedelí."
+
+#. i18n: file: kcmodule/usergroupPage.ui:2468
+#. i18n: ectx: property (text), widget (QCheckBox, kcfg_SUNenabledLT)
+#. i18n: file: kcmodule/usergroupPage.ui:3835
+#. i18n: ectx: property (text), widget (QCheckBox, kcfg_SUNenabledTD)
+#. i18n: file: kcmodule/usergroupPage.ui:2468
+#. i18n: ectx: property (text), widget (QCheckBox, kcfg_SUNenabledLT)
+#. i18n: file: kcmodule/usergroupPage.ui:3835
+#. i18n: ectx: property (text), widget (QCheckBox, kcfg_SUNenabledTD)
+#: rc.cpp:307 rc.cpp:489
+msgid "Sunday"
+msgstr "Nedeľa"
+
+#. i18n: file: kcmodule/usergroupPage.ui:2927
+#. i18n: ectx: attribute (title), widget (QWidget, tab_1)
+#: rc.cpp:327
+msgid "Time Duration"
+msgstr "Doba trvania"
+
+#. i18n: file: kcmodule/usergroupPage.ui:2957
+#. i18n: ectx: property (text), widget (QLabel, label_2)
+#: rc.cpp:330
+msgid "Limited Time Duration of Active Sessions depending on Weekdays"
+msgstr ""
+"Obmedzený čas trvania aktívnej relácie (prihlásenia) v závislosti na dni "
+"týždňa"
+
+#. i18n: file: kcmodule/usergroupPage.ui:3017
+#. i18n: ectx: property (text), widget (QLabel, textLabel00_9)
+#. i18n: file: kcmodule/usergroupPage.ui:3149
+#. i18n: ectx: property (text), widget (QLabel, textLabel01_11)
+#. i18n: file: kcmodule/usergroupPage.ui:3265
+#. i18n: ectx: property (text), widget (QLabel, textLabel02_11)
+#. i18n: file: kcmodule/usergroupPage.ui:3381
+#. i18n: ectx: property (text), widget (QLabel, textLabel03_11)
+#. i18n: file: kcmodule/usergroupPage.ui:3497
+#. i18n: ectx: property (text), widget (QLabel, textLabel04_11)
+#. i18n: file: kcmodule/usergroupPage.ui:3610
+#. i18n: ectx: property (text), widget (QLabel, textLabel05_11)
+#. i18n: file: kcmodule/usergroupPage.ui:3726
+#. i18n: ectx: property (text), widget (QLabel, textLabel06_11)
+#. i18n: file: kcmodule/usergroupPage.ui:3842
+#. i18n: ectx: property (text), widget (QLabel, textLabel07_11)
+#. i18n: file: kcmodule/usergroupPage.ui:3958
+#. i18n: ectx: property (text), widget (QLabel, textLabel08_11)
+#. i18n: file: kcmodule/usergroupPage.ui:6292
+#. i18n: ectx: property (text), widget (QLabel, textLabel3_55)
+#. i18n: file: kcmodule/usergroupPage.ui:6404
+#. i18n: ectx: property (text), widget (QLabel, textLabel335)
+#. i18n: file: kcmodule/usergroupPage.ui:6564
+#. i18n: ectx: property (text), widget (QLabel, textLabel341)
+#. i18n: file: kcmodule/usergroupPage.ui:6670
+#. i18n: ectx: property (text), widget (QLabel, textLabel345)
+#. i18n: file: kcmodule/usergroupPage.ui:6824
+#. i18n: ectx: property (text), widget (QLabel, textLabel351)
+#. i18n: file: kcmodule/usergroupPage.ui:6930
+#. i18n: ectx: property (text), widget (QLabel, textLabel355)
+#. i18n: file: kcmodule/usergroupPage.ui:7084
+#. i18n: ectx: property (text), widget (QLabel, textLabel351)
+#. i18n: file: kcmodule/usergroupPage.ui:7190
+#. i18n: ectx: property (text), widget (QLabel, textLabel355)
+#. i18n: file: kcmodule/usergroupPage.ui:7344
+#. i18n: ectx: property (text), widget (QLabel, textLabel351)
+#. i18n: file: kcmodule/usergroupPage.ui:7450
+#. i18n: ectx: property (text), widget (QLabel, textLabel355)
+#. i18n: file: kcmodule/usergroupPage.ui:3017
+#. i18n: ectx: property (text), widget (QLabel, textLabel00_9)
+#. i18n: file: kcmodule/usergroupPage.ui:3149
+#. i18n: ectx: property (text), widget (QLabel, textLabel01_11)
+#. i18n: file: kcmodule/usergroupPage.ui:3265
+#. i18n: ectx: property (text), widget (QLabel, textLabel02_11)
+#. i18n: file: kcmodule/usergroupPage.ui:3381
+#. i18n: ectx: property (text), widget (QLabel, textLabel03_11)
+#. i18n: file: kcmodule/usergroupPage.ui:3497
+#. i18n: ectx: property (text), widget (QLabel, textLabel04_11)
+#. i18n: file: kcmodule/usergroupPage.ui:3610
+#. i18n: ectx: property (text), widget (QLabel, textLabel05_11)
+#. i18n: file: kcmodule/usergroupPage.ui:3726
+#. i18n: ectx: property (text), widget (QLabel, textLabel06_11)
+#. i18n: file: kcmodule/usergroupPage.ui:3842
+#. i18n: ectx: property (text), widget (QLabel, textLabel07_11)
+#. i18n: file: kcmodule/usergroupPage.ui:3958
+#. i18n: ectx: property (text), widget (QLabel, textLabel08_11)
+#. i18n: file: kcmodule/usergroupPage.ui:6292
+#. i18n: ectx: property (text), widget (QLabel, textLabel3_55)
+#. i18n: file: kcmodule/usergroupPage.ui:6404
+#. i18n: ectx: property (text), widget (QLabel, textLabel335)
+#. i18n: file: kcmodule/usergroupPage.ui:6564
+#. i18n: ectx: property (text), widget (QLabel, textLabel341)
+#. i18n: file: kcmodule/usergroupPage.ui:6670
+#. i18n: ectx: property (text), widget (QLabel, textLabel345)
+#. i18n: file: kcmodule/usergroupPage.ui:6824
+#. i18n: ectx: property (text), widget (QLabel, textLabel351)
+#. i18n: file: kcmodule/usergroupPage.ui:6930
+#. i18n: ectx: property (text), widget (QLabel, textLabel355)
+#. i18n: file: kcmodule/usergroupPage.ui:7084
+#. i18n: ectx: property (text), widget (QLabel, textLabel351)
+#. i18n: file: kcmodule/usergroupPage.ui:7190
+#. i18n: ectx: property (text), widget (QLabel, textLabel355)
+#. i18n: file: kcmodule/usergroupPage.ui:7344
+#. i18n: ectx: property (text), widget (QLabel, textLabel351)
+#. i18n: file: kcmodule/usergroupPage.ui:7450
+#. i18n: ectx: property (text), widget (QLabel, textLabel355)
+#: rc.cpp:342 rc.cpp:369 rc.cpp:390 rc.cpp:411 rc.cpp:432 rc.cpp:450
+#: rc.cpp:471 rc.cpp:492 rc.cpp:513 rc.cpp:694 rc.cpp:709 rc.cpp:733
+#: rc.cpp:748 rc.cpp:772 rc.cpp:787 rc.cpp:811 rc.cpp:826 rc.cpp:850
+#: rc.cpp:865
+msgid "max"
+msgstr "max"
+
+#. i18n: file: kcmodule/usergroupPage.ui:3036
+#. i18n: ectx: property (toolTip), widget (QSpinBox, kcfg_DAYmaxhr)
+#. i18n: file: kcmodule/usergroupPage.ui:3062
+#. i18n: ectx: property (toolTip), widget (QSpinBox, kcfg_DAYmaxmin)
+#. i18n: file: kcmodule/usergroupPage.ui:3036
+#. i18n: ectx: property (toolTip), widget (QSpinBox, kcfg_DAYmaxhr)
+#. i18n: file: kcmodule/usergroupPage.ui:3062
+#. i18n: ectx: property (toolTip), widget (QSpinBox, kcfg_DAYmaxmin)
+#: rc.cpp:345 rc.cpp:351
+msgid "Time limit  per day to spend on the PC."
+msgstr "Denné obmedzenie času stráveného pri PC."
+
+#. i18n: file: kcmodule/usergroupPage.ui:3046
+#. i18n: ectx: property (text), widget (QLabel, textLabel00_11)
+#. i18n: file: kcmodule/usergroupPage.ui:3178
+#. i18n: ectx: property (text), widget (QLabel, textLabel01_12)
+#. i18n: file: kcmodule/usergroupPage.ui:3294
+#. i18n: ectx: property (text), widget (QLabel, textLabel02_12)
+#. i18n: file: kcmodule/usergroupPage.ui:3410
+#. i18n: ectx: property (text), widget (QLabel, textLabel03_12)
+#. i18n: file: kcmodule/usergroupPage.ui:3526
+#. i18n: ectx: property (text), widget (QLabel, textLabel04_12)
+#. i18n: file: kcmodule/usergroupPage.ui:3639
+#. i18n: ectx: property (text), widget (QLabel, textLabel05_12)
+#. i18n: file: kcmodule/usergroupPage.ui:3755
+#. i18n: ectx: property (text), widget (QLabel, textLabel06_12)
+#. i18n: file: kcmodule/usergroupPage.ui:3871
+#. i18n: ectx: property (text), widget (QLabel, textLabel07_12)
+#. i18n: file: kcmodule/usergroupPage.ui:3987
+#. i18n: ectx: property (text), widget (QLabel, textLabel08_12)
+#. i18n: file: kcmodule/usergroupPage.ui:6327
+#. i18n: ectx: property (text), widget (QLabel, textLabel332)
+#. i18n: file: kcmodule/usergroupPage.ui:6439
+#. i18n: ectx: property (text), widget (QLabel, textLabel336)
+#. i18n: file: kcmodule/usergroupPage.ui:6599
+#. i18n: ectx: property (text), widget (QLabel, textLabel342)
+#. i18n: file: kcmodule/usergroupPage.ui:6705
+#. i18n: ectx: property (text), widget (QLabel, textLabel346)
+#. i18n: file: kcmodule/usergroupPage.ui:6859
+#. i18n: ectx: property (text), widget (QLabel, textLabel352)
+#. i18n: file: kcmodule/usergroupPage.ui:6965
+#. i18n: ectx: property (text), widget (QLabel, textLabel356)
+#. i18n: file: kcmodule/usergroupPage.ui:7119
+#. i18n: ectx: property (text), widget (QLabel, textLabel352)
+#. i18n: file: kcmodule/usergroupPage.ui:7225
+#. i18n: ectx: property (text), widget (QLabel, textLabel356)
+#. i18n: file: kcmodule/usergroupPage.ui:7379
+#. i18n: ectx: property (text), widget (QLabel, textLabel352)
+#. i18n: file: kcmodule/usergroupPage.ui:7485
+#. i18n: ectx: property (text), widget (QLabel, textLabel356)
+#. i18n: file: kcmodule/usergroupPage.ui:3046
+#. i18n: ectx: property (text), widget (QLabel, textLabel00_11)
+#. i18n: file: kcmodule/usergroupPage.ui:3178
+#. i18n: ectx: property (text), widget (QLabel, textLabel01_12)
+#. i18n: file: kcmodule/usergroupPage.ui:3294
+#. i18n: ectx: property (text), widget (QLabel, textLabel02_12)
+#. i18n: file: kcmodule/usergroupPage.ui:3410
+#. i18n: ectx: property (text), widget (QLabel, textLabel03_12)
+#. i18n: file: kcmodule/usergroupPage.ui:3526
+#. i18n: ectx: property (text), widget (QLabel, textLabel04_12)
+#. i18n: file: kcmodule/usergroupPage.ui:3639
+#. i18n: ectx: property (text), widget (QLabel, textLabel05_12)
+#. i18n: file: kcmodule/usergroupPage.ui:3755
+#. i18n: ectx: property (text), widget (QLabel, textLabel06_12)
+#. i18n: file: kcmodule/usergroupPage.ui:3871
+#. i18n: ectx: property (text), widget (QLabel, textLabel07_12)
+#. i18n: file: kcmodule/usergroupPage.ui:3987
+#. i18n: ectx: property (text), widget (QLabel, textLabel08_12)
+#. i18n: file: kcmodule/usergroupPage.ui:6327
+#. i18n: ectx: property (text), widget (QLabel, textLabel332)
+#. i18n: file: kcmodule/usergroupPage.ui:6439
+#. i18n: ectx: property (text), widget (QLabel, textLabel336)
+#. i18n: file: kcmodule/usergroupPage.ui:6599
+#. i18n: ectx: property (text), widget (QLabel, textLabel342)
+#. i18n: file: kcmodule/usergroupPage.ui:6705
+#. i18n: ectx: property (text), widget (QLabel, textLabel346)
+#. i18n: file: kcmodule/usergroupPage.ui:6859
+#. i18n: ectx: property (text), widget (QLabel, textLabel352)
+#. i18n: file: kcmodule/usergroupPage.ui:6965
+#. i18n: ectx: property (text), widget (QLabel, textLabel356)
+#. i18n: file: kcmodule/usergroupPage.ui:7119
+#. i18n: ectx: property (text), widget (QLabel, textLabel352)
+#. i18n: file: kcmodule/usergroupPage.ui:7225
+#. i18n: ectx: property (text), widget (QLabel, textLabel356)
+#. i18n: file: kcmodule/usergroupPage.ui:7379
+#. i18n: ectx: property (text), widget (QLabel, textLabel352)
+#. i18n: file: kcmodule/usergroupPage.ui:7485
+#. i18n: ectx: property (text), widget (QLabel, textLabel356)
+#: rc.cpp:348 rc.cpp:375 rc.cpp:396 rc.cpp:417 rc.cpp:438 rc.cpp:456
+#: rc.cpp:477 rc.cpp:498 rc.cpp:519 rc.cpp:700 rc.cpp:715 rc.cpp:739
+#: rc.cpp:754 rc.cpp:778 rc.cpp:793 rc.cpp:817 rc.cpp:832 rc.cpp:856
+#: rc.cpp:871
+msgid "hrs,"
+msgstr "hod,"
+
+#. i18n: file: kcmodule/usergroupPage.ui:3072
+#. i18n: ectx: property (text), widget (QLabel, Textlabel00_9)
+#. i18n: file: kcmodule/usergroupPage.ui:3204
+#. i18n: ectx: property (text), widget (QLabel, Textlabel01_10)
+#. i18n: file: kcmodule/usergroupPage.ui:3320
+#. i18n: ectx: property (text), widget (QLabel, Textlabel02_10)
+#. i18n: file: kcmodule/usergroupPage.ui:3436
+#. i18n: ectx: property (text), widget (QLabel, Textlabel03_10)
+#. i18n: file: kcmodule/usergroupPage.ui:3549
+#. i18n: ectx: property (text), widget (QLabel, Textlabel04_10)
+#. i18n: file: kcmodule/usergroupPage.ui:3665
+#. i18n: ectx: property (text), widget (QLabel, Textlabel05_10)
+#. i18n: file: kcmodule/usergroupPage.ui:3781
+#. i18n: ectx: property (text), widget (QLabel, Textlabel06_10)
+#. i18n: file: kcmodule/usergroupPage.ui:3897
+#. i18n: ectx: property (text), widget (QLabel, Textlabel07_10)
+#. i18n: file: kcmodule/usergroupPage.ui:6356
+#. i18n: ectx: property (text), widget (QLabel, textLabel333)
+#. i18n: file: kcmodule/usergroupPage.ui:6628
+#. i18n: ectx: property (text), widget (QLabel, textLabel343)
+#. i18n: file: kcmodule/usergroupPage.ui:6888
+#. i18n: ectx: property (text), widget (QLabel, textLabel353)
+#. i18n: file: kcmodule/usergroupPage.ui:7148
+#. i18n: ectx: property (text), widget (QLabel, textLabel353)
+#. i18n: file: kcmodule/usergroupPage.ui:7408
+#. i18n: ectx: property (text), widget (QLabel, textLabel353)
+#. i18n: file: kcmodule/usergroupPage.ui:3072
+#. i18n: ectx: property (text), widget (QLabel, Textlabel00_9)
+#. i18n: file: kcmodule/usergroupPage.ui:3204
+#. i18n: ectx: property (text), widget (QLabel, Textlabel01_10)
+#. i18n: file: kcmodule/usergroupPage.ui:3320
+#. i18n: ectx: property (text), widget (QLabel, Textlabel02_10)
+#. i18n: file: kcmodule/usergroupPage.ui:3436
+#. i18n: ectx: property (text), widget (QLabel, Textlabel03_10)
+#. i18n: file: kcmodule/usergroupPage.ui:3549
+#. i18n: ectx: property (text), widget (QLabel, Textlabel04_10)
+#. i18n: file: kcmodule/usergroupPage.ui:3665
+#. i18n: ectx: property (text), widget (QLabel, Textlabel05_10)
+#. i18n: file: kcmodule/usergroupPage.ui:3781
+#. i18n: ectx: property (text), widget (QLabel, Textlabel06_10)
+#. i18n: file: kcmodule/usergroupPage.ui:3897
+#. i18n: ectx: property (text), widget (QLabel, Textlabel07_10)
+#. i18n: file: kcmodule/usergroupPage.ui:6356
+#. i18n: ectx: property (text), widget (QLabel, textLabel333)
+#. i18n: file: kcmodule/usergroupPage.ui:6628
+#. i18n: ectx: property (text), widget (QLabel, textLabel343)
+#. i18n: file: kcmodule/usergroupPage.ui:6888
+#. i18n: ectx: property (text), widget (QLabel, textLabel353)
+#. i18n: file: kcmodule/usergroupPage.ui:7148
+#. i18n: ectx: property (text), widget (QLabel, textLabel353)
+#. i18n: file: kcmodule/usergroupPage.ui:7408
+#. i18n: ectx: property (text), widget (QLabel, textLabel353)
+#: rc.cpp:354 rc.cpp:381 rc.cpp:402 rc.cpp:423 rc.cpp:441 rc.cpp:462
+#: rc.cpp:483 rc.cpp:504 rc.cpp:706 rc.cpp:745 rc.cpp:784 rc.cpp:823
+#: rc.cpp:862
+msgid "min per day"
+msgstr "min za deň"
+
+#. i18n: file: kcmodule/usergroupPage.ui:3105
+#. i18n: ectx: property (text), widget (QRadioButton, kcfg_diffRestrictTD)
+#: rc.cpp:360
+msgid "restrictions depend on weekday"
+msgstr "podľa dňa v týždni"
+
+#. i18n: file: kcmodule/usergroupPage.ui:3168
+#. i18n: ectx: property (toolTip), widget (QSpinBox, kcfg_MONmaxhr)
+#. i18n: file: kcmodule/usergroupPage.ui:3194
+#. i18n: ectx: property (toolTip), widget (QSpinBox, kcfg_MONmaxmin)
+#. i18n: file: kcmodule/usergroupPage.ui:3284
+#. i18n: ectx: property (toolTip), widget (QSpinBox, kcfg_TUEmaxhr)
+#. i18n: file: kcmodule/usergroupPage.ui:3310
+#. i18n: ectx: property (toolTip), widget (QSpinBox, kcfg_TUEmaxmin)
+#. i18n: file: kcmodule/usergroupPage.ui:3400
+#. i18n: ectx: property (toolTip), widget (QSpinBox, kcfg_WEDmaxhr)
+#. i18n: file: kcmodule/usergroupPage.ui:3426
+#. i18n: ectx: property (toolTip), widget (QSpinBox, kcfg_WEDmaxmin)
+#. i18n: file: kcmodule/usergroupPage.ui:3516
+#. i18n: ectx: property (toolTip), widget (QSpinBox, kcfg_THUmaxhr)
+#. i18n: file: kcmodule/usergroupPage.ui:3629
+#. i18n: ectx: property (toolTip), widget (QSpinBox, kcfg_FRImaxhr)
+#. i18n: file: kcmodule/usergroupPage.ui:3655
+#. i18n: ectx: property (toolTip), widget (QSpinBox, kcfg_FRImaxmin)
+#. i18n: file: kcmodule/usergroupPage.ui:3745
+#. i18n: ectx: property (toolTip), widget (QSpinBox, kcfg_SATmaxhr)
+#. i18n: file: kcmodule/usergroupPage.ui:3771
+#. i18n: ectx: property (toolTip), widget (QSpinBox, kcfg_SATmaxmin)
+#. i18n: file: kcmodule/usergroupPage.ui:3861
+#. i18n: ectx: property (toolTip), widget (QSpinBox, kcfg_SUNmaxhr)
+#. i18n: file: kcmodule/usergroupPage.ui:3887
+#. i18n: ectx: property (toolTip), widget (QSpinBox, kcfg_SUNmaxmin)
+#. i18n: file: kcmodule/usergroupPage.ui:3168
+#. i18n: ectx: property (toolTip), widget (QSpinBox, kcfg_MONmaxhr)
+#. i18n: file: kcmodule/usergroupPage.ui:3194
+#. i18n: ectx: property (toolTip), widget (QSpinBox, kcfg_MONmaxmin)
+#. i18n: file: kcmodule/usergroupPage.ui:3284
+#. i18n: ectx: property (toolTip), widget (QSpinBox, kcfg_TUEmaxhr)
+#. i18n: file: kcmodule/usergroupPage.ui:3310
+#. i18n: ectx: property (toolTip), widget (QSpinBox, kcfg_TUEmaxmin)
+#. i18n: file: kcmodule/usergroupPage.ui:3400
+#. i18n: ectx: property (toolTip), widget (QSpinBox, kcfg_WEDmaxhr)
+#. i18n: file: kcmodule/usergroupPage.ui:3426
+#. i18n: ectx: property (toolTip), widget (QSpinBox, kcfg_WEDmaxmin)
+#. i18n: file: kcmodule/usergroupPage.ui:3516
+#. i18n: ectx: property (toolTip), widget (QSpinBox, kcfg_THUmaxhr)
+#. i18n: file: kcmodule/usergroupPage.ui:3629
+#. i18n: ectx: property (toolTip), widget (QSpinBox, kcfg_FRImaxhr)
+#. i18n: file: kcmodule/usergroupPage.ui:3655
+#. i18n: ectx: property (toolTip), widget (QSpinBox, kcfg_FRImaxmin)
+#. i18n: file: kcmodule/usergroupPage.ui:3745
+#. i18n: ectx: property (toolTip), widget (QSpinBox, kcfg_SATmaxhr)
+#. i18n: file: kcmodule/usergroupPage.ui:3771
+#. i18n: ectx: property (toolTip), widget (QSpinBox, kcfg_SATmaxmin)
+#. i18n: file: kcmodule/usergroupPage.ui:3861
+#. i18n: ectx: property (toolTip), widget (QSpinBox, kcfg_SUNmaxhr)
+#. i18n: file: kcmodule/usergroupPage.ui:3887
+#. i18n: ectx: property (toolTip), widget (QSpinBox, kcfg_SUNmaxmin)
+#: rc.cpp:372 rc.cpp:378 rc.cpp:393 rc.cpp:399 rc.cpp:414 rc.cpp:420
+#: rc.cpp:435 rc.cpp:453 rc.cpp:459 rc.cpp:474 rc.cpp:480 rc.cpp:495
+#: rc.cpp:501
+msgid "Time limit for this weekday to spend on the PC."
+msgstr "Obmedzenie času stráveného pri PC na tento deň týždňa."
+
+#. i18n: file: kcmodule/usergroupPage.ui:3948
+#. i18n: ectx: property (toolTip), widget (QCheckBox, kcfg_WEEKenabled)
+#: rc.cpp:507
+msgid "This checkbox enables the restrictions for the whole week."
+msgstr "Toto zaškrtávacie pole zapína obmedzenia na celý týždeň."
+
+#. i18n: file: kcmodule/usergroupPage.ui:3951
+#. i18n: ectx: property (text), widget (QCheckBox, kcfg_WEEKenabled)
+#: rc.cpp:510
+msgid "total weekly Usage"
+msgstr "celkové využitie za týždeň"
+
+#. i18n: file: kcmodule/usergroupPage.ui:3977
+#. i18n: ectx: property (toolTip), widget (QSpinBox, kcfg_WEEKmaxhr)
+#. i18n: file: kcmodule/usergroupPage.ui:4003
+#. i18n: ectx: property (toolTip), widget (QSpinBox, kcfg_WEEKmaxmin)
+#. i18n: file: kcmodule/usergroupPage.ui:3977
+#. i18n: ectx: property (toolTip), widget (QSpinBox, kcfg_WEEKmaxhr)
+#. i18n: file: kcmodule/usergroupPage.ui:4003
+#. i18n: ectx: property (toolTip), widget (QSpinBox, kcfg_WEEKmaxmin)
+#: rc.cpp:516 rc.cpp:522
+msgid "Limit for the weekly time spent on the PC."
+msgstr "Obmedzenie týždenného času, stráveného pri PC."
+
+#. i18n: file: kcmodule/usergroupPage.ui:4013
+#. i18n: ectx: property (text), widget (QLabel, Textlabel08_10)
+#: rc.cpp:525
+msgid "min"
+msgstr "min"
+
+#. i18n: file: kcmodule/usergroupPage.ui:4039
+#. i18n: ectx: attribute (title), widget (QWidget, tab_2)
+#: rc.cpp:528
+msgid "Program Times"
+msgstr "Časy programov"
+
+#. i18n: file: kcmodule/usergroupPage.ui:4066
+#. i18n: ectx: property (text), widget (QLabel, label_12)
+#: rc.cpp:531
+msgid "Program Restrictions depending on Daytime"
+msgstr "Obmedzenia programu podľa času dňa"
+
+#. i18n: file: kcmodule/usergroupPage.ui:4103
+#. i18n: ectx: property (toolTip), widget (QCheckBox, kcfg_App1enabledPT)
+#. i18n: file: kcmodule/usergroupPage.ui:4500
+#. i18n: ectx: property (toolTip), widget (QCheckBox, kcfg_App2enabledPT)
+#. i18n: file: kcmodule/usergroupPage.ui:4894
+#. i18n: ectx: property (toolTip), widget (QCheckBox, kcfg_App3enabledPT)
+#. i18n: file: kcmodule/usergroupPage.ui:5288
+#. i18n: ectx: property (toolTip), widget (QCheckBox, kcfg_App4enabledPT)
+#. i18n: file: kcmodule/usergroupPage.ui:5682
+#. i18n: ectx: property (toolTip), widget (QCheckBox, kcfg_App5enabledPT)
+#. i18n: file: kcmodule/usergroupPage.ui:6237
+#. i18n: ectx: property (toolTip), widget (QCheckBox, kcfg_App1enabledPD)
+#. i18n: file: kcmodule/usergroupPage.ui:6512
+#. i18n: ectx: property (toolTip), widget (QCheckBox, kcfg_App2enabledPD)
+#. i18n: file: kcmodule/usergroupPage.ui:6772
+#. i18n: ectx: property (toolTip), widget (QCheckBox, kcfg_App3enabledPD)
+#. i18n: file: kcmodule/usergroupPage.ui:7032
+#. i18n: ectx: property (toolTip), widget (QCheckBox, kcfg_App4enabledPD)
+#. i18n: file: kcmodule/usergroupPage.ui:7292
+#. i18n: ectx: property (toolTip), widget (QCheckBox, kcfg_App5enabledPD)
+#. i18n: file: kcmodule/usergroupPage.ui:4103
+#. i18n: ectx: property (toolTip), widget (QCheckBox, kcfg_App1enabledPT)
+#. i18n: file: kcmodule/usergroupPage.ui:4500
+#. i18n: ectx: property (toolTip), widget (QCheckBox, kcfg_App2enabledPT)
+#. i18n: file: kcmodule/usergroupPage.ui:4894
+#. i18n: ectx: property (toolTip), widget (QCheckBox, kcfg_App3enabledPT)
+#. i18n: file: kcmodule/usergroupPage.ui:5288
+#. i18n: ectx: property (toolTip), widget (QCheckBox, kcfg_App4enabledPT)
+#. i18n: file: kcmodule/usergroupPage.ui:5682
+#. i18n: ectx: property (toolTip), widget (QCheckBox, kcfg_App5enabledPT)
+#. i18n: file: kcmodule/usergroupPage.ui:6237
+#. i18n: ectx: property (toolTip), widget (QCheckBox, kcfg_App1enabledPD)
+#. i18n: file: kcmodule/usergroupPage.ui:6512
+#. i18n: ectx: property (toolTip), widget (QCheckBox, kcfg_App2enabledPD)
+#. i18n: file: kcmodule/usergroupPage.ui:6772
+#. i18n: ectx: property (toolTip), widget (QCheckBox, kcfg_App3enabledPD)
+#. i18n: file: kcmodule/usergroupPage.ui:7032
+#. i18n: ectx: property (toolTip), widget (QCheckBox, kcfg_App4enabledPD)
+#. i18n: file: kcmodule/usergroupPage.ui:7292
+#. i18n: ectx: property (toolTip), widget (QCheckBox, kcfg_App5enabledPD)
+#: rc.cpp:534 rc.cpp:563 rc.cpp:592 rc.cpp:621 rc.cpp:650 rc.cpp:685
+#: rc.cpp:724 rc.cpp:763 rc.cpp:802 rc.cpp:841
+msgid "This checkbox enables the restrictions for the application."
+msgstr "Toto zaškrtávacie pole zapína obmedzenia aplikácie."
+
+#. i18n: file: kcmodule/usergroupPage.ui:4106
+#. i18n: ectx: property (text), widget (QCheckBox, kcfg_App1enabledPT)
+#. i18n: file: kcmodule/usergroupPage.ui:6240
+#. i18n: ectx: property (text), widget (QCheckBox, kcfg_App1enabledPD)
+#. i18n: file: kcmodule/usergroupPage.ui:4106
+#. i18n: ectx: property (text), widget (QCheckBox, kcfg_App1enabledPT)
+#. i18n: file: kcmodule/usergroupPage.ui:6240
+#. i18n: ectx: property (text), widget (QCheckBox, kcfg_App1enabledPD)
+#: rc.cpp:537 rc.cpp:688
+msgid "enable Restriction for Application 1"
+msgstr "zapnúť obmedzenie Aplikácie 1"
+
+#. i18n: file: kcmodule/usergroupPage.ui:4113
+#. i18n: ectx: property (toolTip), widget (QLineEdit, kcfg_AppName1PT)
+#. i18n: file: kcmodule/usergroupPage.ui:4510
+#. i18n: ectx: property (toolTip), widget (QLineEdit, kcfg_AppName2PT)
+#. i18n: file: kcmodule/usergroupPage.ui:4904
+#. i18n: ectx: property (toolTip), widget (QLineEdit, kcfg_AppName3PT)
+#. i18n: file: kcmodule/usergroupPage.ui:5298
+#. i18n: ectx: property (toolTip), widget (QLineEdit, kcfg_AppName4PT)
+#. i18n: file: kcmodule/usergroupPage.ui:5692
+#. i18n: ectx: property (toolTip), widget (QLineEdit, kcfg_AppName5PT)
+#. i18n: file: kcmodule/usergroupPage.ui:4113
+#. i18n: ectx: property (toolTip), widget (QLineEdit, kcfg_AppName1PT)
+#. i18n: file: kcmodule/usergroupPage.ui:4510
+#. i18n: ectx: property (toolTip), widget (QLineEdit, kcfg_AppName2PT)
+#. i18n: file: kcmodule/usergroupPage.ui:4904
+#. i18n: ectx: property (toolTip), widget (QLineEdit, kcfg_AppName3PT)
+#. i18n: file: kcmodule/usergroupPage.ui:5298
+#. i18n: ectx: property (toolTip), widget (QLineEdit, kcfg_AppName4PT)
+#. i18n: file: kcmodule/usergroupPage.ui:5692
+#. i18n: ectx: property (toolTip), widget (QLineEdit, kcfg_AppName5PT)
+#: rc.cpp:540 rc.cpp:569 rc.cpp:598 rc.cpp:627 rc.cpp:656
+msgid ""
+"The name of the application to restrict. Every linux process of the given "
+"user which contains the string will be terminated!"
+msgstr ""
+"Meno aplikácie, ktorá má byť obmedzená. Každý linuxový proces daného "
+"používateľa, ktorý obsahuje zadaný reťazec bude ukončený!"
+
+#. i18n: file: kcmodule/usergroupPage.ui:4176
+#. i18n: ectx: property (text), widget (QLabel, textLabel330)
+#. i18n: file: kcmodule/usergroupPage.ui:4570
+#. i18n: ectx: property (text), widget (QLabel, textLabel339)
+#. i18n: file: kcmodule/usergroupPage.ui:4964
+#. i18n: ectx: property (text), widget (QLabel, textLabel349)
+#. i18n: file: kcmodule/usergroupPage.ui:5358
+#. i18n: ectx: property (text), widget (QLabel, textLabel349)
+#. i18n: file: kcmodule/usergroupPage.ui:5752
+#. i18n: ectx: property (text), widget (QLabel, textLabel349)
+#. i18n: file: kcmodule/usergroupPage.ui:4176
+#. i18n: ectx: property (text), widget (QLabel, textLabel330)
+#. i18n: file: kcmodule/usergroupPage.ui:4570
+#. i18n: ectx: property (text), widget (QLabel, textLabel339)
+#. i18n: file: kcmodule/usergroupPage.ui:4964
+#. i18n: ectx: property (text), widget (QLabel, textLabel349)
+#. i18n: file: kcmodule/usergroupPage.ui:5358
+#. i18n: ectx: property (text), widget (QLabel, textLabel349)
+#. i18n: file: kcmodule/usergroupPage.ui:5752
+#. i18n: ectx: property (text), widget (QLabel, textLabel349)
+#: rc.cpp:543 rc.cpp:572 rc.cpp:601 rc.cpp:630 rc.cpp:659
+msgid "allowed time range"
+msgstr "povolený rozsah času"
+
+#. i18n: file: kcmodule/usergroupPage.ui:4503
+#. i18n: ectx: property (text), widget (QCheckBox, kcfg_App2enabledPT)
+#. i18n: file: kcmodule/usergroupPage.ui:6515
+#. i18n: ectx: property (text), widget (QCheckBox, kcfg_App2enabledPD)
+#. i18n: file: kcmodule/usergroupPage.ui:4503
+#. i18n: ectx: property (text), widget (QCheckBox, kcfg_App2enabledPT)
+#. i18n: file: kcmodule/usergroupPage.ui:6515
+#. i18n: ectx: property (text), widget (QCheckBox, kcfg_App2enabledPD)
+#: rc.cpp:566 rc.cpp:727
+msgid "enable Restriction for Application 2"
+msgstr "zapnúť obmedzenie Aplikácie 2"
+
+#. i18n: file: kcmodule/usergroupPage.ui:4897
+#. i18n: ectx: property (text), widget (QCheckBox, kcfg_App3enabledPT)
+#. i18n: file: kcmodule/usergroupPage.ui:6775
+#. i18n: ectx: property (text), widget (QCheckBox, kcfg_App3enabledPD)
+#. i18n: file: kcmodule/usergroupPage.ui:4897
+#. i18n: ectx: property (text), widget (QCheckBox, kcfg_App3enabledPT)
+#. i18n: file: kcmodule/usergroupPage.ui:6775
+#. i18n: ectx: property (text), widget (QCheckBox, kcfg_App3enabledPD)
+#: rc.cpp:595 rc.cpp:766
+msgid "enable Restriction for Application 3"
+msgstr "zapnúť obmedzenie Aplikácie 3"
+
+#. i18n: file: kcmodule/usergroupPage.ui:5291
+#. i18n: ectx: property (text), widget (QCheckBox, kcfg_App4enabledPT)
+#. i18n: file: kcmodule/usergroupPage.ui:7035
+#. i18n: ectx: property (text), widget (QCheckBox, kcfg_App4enabledPD)
+#. i18n: file: kcmodule/usergroupPage.ui:5291
+#. i18n: ectx: property (text), widget (QCheckBox, kcfg_App4enabledPT)
+#. i18n: file: kcmodule/usergroupPage.ui:7035
+#. i18n: ectx: property (text), widget (QCheckBox, kcfg_App4enabledPD)
+#: rc.cpp:624 rc.cpp:805
+msgid "enable Restriction for Application 4"
+msgstr "zapnúť obmedzenie Aplikácie 4"
+
+#. i18n: file: kcmodule/usergroupPage.ui:5685
+#. i18n: ectx: property (text), widget (QCheckBox, kcfg_App5enabledPT)
+#. i18n: file: kcmodule/usergroupPage.ui:7295
+#. i18n: ectx: property (text), widget (QCheckBox, kcfg_App5enabledPD)
+#. i18n: file: kcmodule/usergroupPage.ui:5685
+#. i18n: ectx: property (text), widget (QCheckBox, kcfg_App5enabledPT)
+#. i18n: file: kcmodule/usergroupPage.ui:7295
+#. i18n: ectx: property (text), widget (QCheckBox, kcfg_App5enabledPD)
+#: rc.cpp:653 rc.cpp:844
+msgid "enable Restriction for Application 5"
+msgstr "zapnúť obmedzenie Aplikácie 5"
+
+#. i18n: file: kcmodule/usergroupPage.ui:6173
+#. i18n: ectx: attribute (title), widget (QWidget, tab_3)
+#: rc.cpp:679
+msgid "Program Duration"
+msgstr "Trvanie programu"
+
+#. i18n: file: kcmodule/usergroupPage.ui:6200
+#. i18n: ectx: property (text), widget (QLabel, label_12)
+#: rc.cpp:682
+msgid "Limited daily and weekly Time Duration of Programs"
+msgstr "Obmedzený denná a týždenná doba behu programov"
+
+#. i18n: file: kcmodule/usergroupPage.ui:6247
+#. i18n: ectx: property (toolTip), widget (QLineEdit, kcfg_AppName1PD)
+#. i18n: file: kcmodule/usergroupPage.ui:6522
+#. i18n: ectx: property (toolTip), widget (QLineEdit, kcfg_AppName2PD)
+#. i18n: file: kcmodule/usergroupPage.ui:6782
+#. i18n: ectx: property (toolTip), widget (QLineEdit, kcfg_AppName3PD)
+#. i18n: file: kcmodule/usergroupPage.ui:7042
+#. i18n: ectx: property (toolTip), widget (QLineEdit, kcfg_AppName4PD)
+#. i18n: file: kcmodule/usergroupPage.ui:7302
+#. i18n: ectx: property (toolTip), widget (QLineEdit, kcfg_AppName5PD)
+#. i18n: file: kcmodule/usergroupPage.ui:6247
+#. i18n: ectx: property (toolTip), widget (QLineEdit, kcfg_AppName1PD)
+#. i18n: file: kcmodule/usergroupPage.ui:6522
+#. i18n: ectx: property (toolTip), widget (QLineEdit, kcfg_AppName2PD)
+#. i18n: file: kcmodule/usergroupPage.ui:6782
+#. i18n: ectx: property (toolTip), widget (QLineEdit, kcfg_AppName3PD)
+#. i18n: file: kcmodule/usergroupPage.ui:7042
+#. i18n: ectx: property (toolTip), widget (QLineEdit, kcfg_AppName4PD)
+#. i18n: file: kcmodule/usergroupPage.ui:7302
+#. i18n: ectx: property (toolTip), widget (QLineEdit, kcfg_AppName5PD)
+#: rc.cpp:691 rc.cpp:730 rc.cpp:769 rc.cpp:808 rc.cpp:847
+msgid ""
+"The name of the application to restrict. Every linux process of the given "
+"user which contains the string will be limited."
+msgstr ""
+"Meno obmedzovanej aplikácie. Každý linuxový proces daného používateľa, ktorý "
+"obsahuje zadaný reťazec, bude ukončený!"
+
+#. i18n: file: kcmodule/usergroupPage.ui:6305
+#. i18n: ectx: property (toolTip), widget (QSpinBox, kcfg_App1maxDhr)
+#. i18n: file: kcmodule/usergroupPage.ui:6340
+#. i18n: ectx: property (toolTip), widget (QSpinBox, kcfg_App1maxDmin)
+#. i18n: file: kcmodule/usergroupPage.ui:6577
+#. i18n: ectx: property (toolTip), widget (QSpinBox, kcfg_App2maxDhr)
+#. i18n: file: kcmodule/usergroupPage.ui:6612
+#. i18n: ectx: property (toolTip), widget (QSpinBox, kcfg_App2maxDmin)
+#. i18n: file: kcmodule/usergroupPage.ui:6837
+#. i18n: ectx: property (toolTip), widget (QSpinBox, kcfg_App3maxDhr)
+#. i18n: file: kcmodule/usergroupPage.ui:6872
+#. i18n: ectx: property (toolTip), widget (QSpinBox, kcfg_App3maxDmin)
+#. i18n: file: kcmodule/usergroupPage.ui:7097
+#. i18n: ectx: property (toolTip), widget (QSpinBox, kcfg_App4maxDhr)
+#. i18n: file: kcmodule/usergroupPage.ui:7132
+#. i18n: ectx: property (toolTip), widget (QSpinBox, kcfg_App4maxDmin)
+#. i18n: file: kcmodule/usergroupPage.ui:7357
+#. i18n: ectx: property (toolTip), widget (QSpinBox, kcfg_App5maxDhr)
+#. i18n: file: kcmodule/usergroupPage.ui:7392
+#. i18n: ectx: property (toolTip), widget (QSpinBox, kcfg_App5maxDmin)
+#. i18n: file: kcmodule/usergroupPage.ui:6305
+#. i18n: ectx: property (toolTip), widget (QSpinBox, kcfg_App1maxDhr)
+#. i18n: file: kcmodule/usergroupPage.ui:6340
+#. i18n: ectx: property (toolTip), widget (QSpinBox, kcfg_App1maxDmin)
+#. i18n: file: kcmodule/usergroupPage.ui:6577
+#. i18n: ectx: property (toolTip), widget (QSpinBox, kcfg_App2maxDhr)
+#. i18n: file: kcmodule/usergroupPage.ui:6612
+#. i18n: ectx: property (toolTip), widget (QSpinBox, kcfg_App2maxDmin)
+#. i18n: file: kcmodule/usergroupPage.ui:6837
+#. i18n: ectx: property (toolTip), widget (QSpinBox, kcfg_App3maxDhr)
+#. i18n: file: kcmodule/usergroupPage.ui:6872
+#. i18n: ectx: property (toolTip), widget (QSpinBox, kcfg_App3maxDmin)
+#. i18n: file: kcmodule/usergroupPage.ui:7097
+#. i18n: ectx: property (toolTip), widget (QSpinBox, kcfg_App4maxDhr)
+#. i18n: file: kcmodule/usergroupPage.ui:7132
+#. i18n: ectx: property (toolTip), widget (QSpinBox, kcfg_App4maxDmin)
+#. i18n: file: kcmodule/usergroupPage.ui:7357
+#. i18n: ectx: property (toolTip), widget (QSpinBox, kcfg_App5maxDhr)
+#. i18n: file: kcmodule/usergroupPage.ui:7392
+#. i18n: ectx: property (toolTip), widget (QSpinBox, kcfg_App5maxDmin)
+#: rc.cpp:697 rc.cpp:703 rc.cpp:736 rc.cpp:742 rc.cpp:775 rc.cpp:781
+#: rc.cpp:814 rc.cpp:820 rc.cpp:853 rc.cpp:859
+msgid "Time limit for this application to be active per day."
+msgstr "Časové obmedzenie behu tejto aplikácie na deň."
+
+#. i18n: file: kcmodule/usergroupPage.ui:6417
+#. i18n: ectx: property (toolTip), widget (QSpinBox, kcfg_App1maxWhr)
+#. i18n: file: kcmodule/usergroupPage.ui:6452
+#. i18n: ectx: property (toolTip), widget (QSpinBox, kcfg_App1maxWmin)
+#. i18n: file: kcmodule/usergroupPage.ui:6683
+#. i18n: ectx: property (toolTip), widget (QSpinBox, kcfg_App2maxWhr)
+#. i18n: file: kcmodule/usergroupPage.ui:6718
+#. i18n: ectx: property (toolTip), widget (QSpinBox, kcfg_App2maxWmin)
+#. i18n: file: kcmodule/usergroupPage.ui:6943
+#. i18n: ectx: property (toolTip), widget (QSpinBox, kcfg_App3maxWhr)
+#. i18n: file: kcmodule/usergroupPage.ui:6978
+#. i18n: ectx: property (toolTip), widget (QSpinBox, kcfg_App3maxWmin)
+#. i18n: file: kcmodule/usergroupPage.ui:7203
+#. i18n: ectx: property (toolTip), widget (QSpinBox, kcfg_App4maxWhr)
+#. i18n: file: kcmodule/usergroupPage.ui:7238
+#. i18n: ectx: property (toolTip), widget (QSpinBox, kcfg_App4maxWmin)
+#. i18n: file: kcmodule/usergroupPage.ui:7463
+#. i18n: ectx: property (toolTip), widget (QSpinBox, kcfg_App5maxWhr)
+#. i18n: file: kcmodule/usergroupPage.ui:7498
+#. i18n: ectx: property (toolTip), widget (QSpinBox, kcfg_App5maxWmin)
+#. i18n: file: kcmodule/usergroupPage.ui:6417
+#. i18n: ectx: property (toolTip), widget (QSpinBox, kcfg_App1maxWhr)
+#. i18n: file: kcmodule/usergroupPage.ui:6452
+#. i18n: ectx: property (toolTip), widget (QSpinBox, kcfg_App1maxWmin)
+#. i18n: file: kcmodule/usergroupPage.ui:6683
+#. i18n: ectx: property (toolTip), widget (QSpinBox, kcfg_App2maxWhr)
+#. i18n: file: kcmodule/usergroupPage.ui:6718
+#. i18n: ectx: property (toolTip), widget (QSpinBox, kcfg_App2maxWmin)
+#. i18n: file: kcmodule/usergroupPage.ui:6943
+#. i18n: ectx: property (toolTip), widget (QSpinBox, kcfg_App3maxWhr)
+#. i18n: file: kcmodule/usergroupPage.ui:6978
+#. i18n: ectx: property (toolTip), widget (QSpinBox, kcfg_App3maxWmin)
+#. i18n: file: kcmodule/usergroupPage.ui:7203
+#. i18n: ectx: property (toolTip), widget (QSpinBox, kcfg_App4maxWhr)
+#. i18n: file: kcmodule/usergroupPage.ui:7238
+#. i18n: ectx: property (toolTip), widget (QSpinBox, kcfg_App4maxWmin)
+#. i18n: file: kcmodule/usergroupPage.ui:7463
+#. i18n: ectx: property (toolTip), widget (QSpinBox, kcfg_App5maxWhr)
+#. i18n: file: kcmodule/usergroupPage.ui:7498
+#. i18n: ectx: property (toolTip), widget (QSpinBox, kcfg_App5maxWmin)
+#: rc.cpp:712 rc.cpp:718 rc.cpp:751 rc.cpp:757 rc.cpp:790 rc.cpp:796
+#: rc.cpp:829 rc.cpp:835 rc.cpp:868 rc.cpp:874
+msgid "Time limit for this application to be active per week."
+msgstr "Časové obmedzenie behu tejto aplikácie na týždeň."
+
+#. i18n: file: kcmodule/usergroupPage.ui:6474
+#. i18n: ectx: property (text), widget (QLabel, textLabel337)
+#. i18n: file: kcmodule/usergroupPage.ui:6734
+#. i18n: ectx: property (text), widget (QLabel, textLabel347)
+#. i18n: file: kcmodule/usergroupPage.ui:6994
+#. i18n: ectx: property (text), widget (QLabel, textLabel357)
+#. i18n: file: kcmodule/usergroupPage.ui:7254
+#. i18n: ectx: property (text), widget (QLabel, textLabel357)
+#. i18n: file: kcmodule/usergroupPage.ui:7514
+#. i18n: ectx: property (text), widget (QLabel, textLabel357)
+#. i18n: file: kcmodule/usergroupPage.ui:6474
+#. i18n: ectx: property (text), widget (QLabel, textLabel337)
+#. i18n: file: kcmodule/usergroupPage.ui:6734
+#. i18n: ectx: property (text), widget (QLabel, textLabel347)
+#. i18n: file: kcmodule/usergroupPage.ui:6994
+#. i18n: ectx: property (text), widget (QLabel, textLabel357)
+#. i18n: file: kcmodule/usergroupPage.ui:7254
+#. i18n: ectx: property (text), widget (QLabel, textLabel357)
+#. i18n: file: kcmodule/usergroupPage.ui:7514
+#. i18n: ectx: property (text), widget (QLabel, textLabel357)
+#: rc.cpp:721 rc.cpp:760 rc.cpp:799 rc.cpp:838 rc.cpp:877
+msgid "min per week"
+msgstr "min za týždeň"
+
+#. i18n: file: kcmodule/usergroupPage.ui:7566
+#. i18n: ectx: property (text), widget (QLabel, label_username)
+#: rc.cpp:880
+msgid "Username"
+msgstr "Meno používateľa"
+
+#. i18n: file: kcmodule/usergroupPage.ui:7589
+#. i18n: ectx: property (toolTip), widget (QPushButton, pushButton_new)
+#: rc.cpp:883
+msgid "Adds a user or group to list of restricted users."
+msgstr "Pridá používateľa alebo skupinu do zoznamu obmedzovaných."
+
+#. i18n: file: kcmodule/usergroupPage.ui:7615
+#. i18n: ectx: property (toolTip), widget (QPushButton, pushButton_del)
+#: rc.cpp:886
+msgid "Deletes the selected user or group from the list."
+msgstr "Odoberá používateľa alebo skupinu zo zoznamu obmedzovaných."
+
+#. i18n: file: kcmodule/usergroupPage.ui:7641
+#. i18n: ectx: property (toolTip), widget (QPushButton, pushButton_imp)
+#: rc.cpp:889
+msgid "Import a restriction profile to the list."
+msgstr "Importovať profil obmedzení do zoznamu."
+
+#. i18n: file: kcmodule/usergroupPage.ui:7668
+#. i18n: ectx: property (toolTip), widget (QPushButton, pushButton_exp)
+#: rc.cpp:892
+msgid "Export all profiles to a selected directory."
+msgstr "Exportovať všetky profily do zvoleného adresára."
+
+#: rc.cpp:893
+msgctxt "NAME OF TRANSLATORS"
+msgid "Your names"
+msgstr "Slavko"
+
+#: rc.cpp:894
+msgctxt "EMAIL OF TRANSLATORS"
+msgid "Your emails"
+msgstr "linux@slavino.sk"
+
+#~ msgid "Delete Group"
+#~ msgstr "Odstrániť skupinu"
+
+#~ msgid "Delete User"
+#~ msgstr "Odstrániť používateľa"
+
+#~ msgid "Time limit  fo this weekday to spend on the PC."
+#~ msgstr "Obmedzenie času stráveného pri PC na tento deň týždňa."
+
+#, fuzzy
+#~ msgid ""
+#~ "Enable the restrictions</string>\n"
+#~ "          </property>"
+#~ msgstr ""
+#~ "alebo najviac</string>\n"
+#~ "                   </property>"
+
+#, fuzzy
+#~ msgid ""
+#~ "Enable System Tray Icon for User</string>\n"
+#~ "          </property>"
+#~ msgstr ""
+#~ "alebo najviac</string>\n"
+#~ "                   </property>"
+
+#, fuzzy
+#~ msgid ""
+#~ "Scan Interval in seconds</string>\n"
+#~ "              </property>"
+#~ msgstr ""
+#~ "alebo najviac</string>\n"
+#~ "                   </property>"
+
+#, fuzzy
+#~ msgid ""
+#~ "Wednesday</string>\n"
+#~ "                   </property>"
+#~ msgstr ""
+#~ "alebo najviac</string>\n"
+#~ "                   </property>"
+
+#, fuzzy
+#~ msgid "restrictions depend on weekday_"
+#~ msgstr "podľa dňa v týždni"
+
+#, fuzzy
+#~ msgid ""
+#~ "Tuesday</string>\n"
+#~ "                   </property>"
+#~ msgstr ""
+#~ "alebo najviac</string>\n"
+#~ "                   </property>"
+
+#, fuzzy
+#~ msgid ""
+#~ "Thursday</string>\n"
+#~ "                   </property>"
+#~ msgstr ""
+#~ "alebo najviac</string>\n"
+#~ "                   </property>"
+
+#, fuzzy
+#~ msgid ""
+#~ "Friday</string>\n"
+#~ "                   </property>"
+#~ msgstr ""
+#~ "alebo najviac</string>\n"
+#~ "                   </property>"
+
+#, fuzzy
+#~ msgid ""
+#~ "Saturday</string>\n"
+#~ "                   </property>"
+#~ msgstr ""
+#~ "alebo najviac</string>\n"
+#~ "                   </property>"
+
+#, fuzzy
+#~ msgid ""
+#~ "Sunday</string>\n"
+#~ "                   </property>"
+#~ msgstr ""
+#~ "alebo najviac</string>\n"
+#~ "                   </property>"
+
+#, fuzzy
+#~ msgid ""
+#~ "Time Duration</string>\n"
+#~ "           </attribute>"
+#~ msgstr ""
+#~ "alebo najviac</string>\n"
+#~ "                   </property>"
+
+#, fuzzy
+#~ msgid ""
+#~ "enable Restriction for Application 3</string>\n"
+#~ "                   </property>"
+#~ msgstr ""
+#~ "alebo najviac</string>\n"
+#~ "                   </property>"
+
+#, fuzzy
+#~ msgid ""
+#~ "enable Restriction for Application 4</string>\n"
+#~ "                   </property>"
+#~ msgstr ""
+#~ "alebo najviac</string>\n"
+#~ "                   </property>"
+
+#, fuzzy
+#~ msgid ""
+#~ "enable Restriction for Application 5</string>\n"
+#~ "                   </property>"
+#~ msgstr ""
+#~ "alebo najviac</string>\n"
+#~ "                   </property>"
+
+#, fuzzy
+#~ msgid ""
+#~ "Program Duration</string>\n"
+#~ "           </attribute>"
+#~ msgstr ""
+#~ "alebo najviac</string>\n"
+#~ "                   </property>"
+
+#, fuzzy
+#~ msgid ""
+#~ "restrictions depend on weekday </string>\n"
+#~ "               </property>"
+#~ msgstr ""
+#~ "alebo najviac</string>\n"
+#~ "                   </property>"
+
+#, fuzzy
+#~ msgid ""
+#~ "6666</string>\n"
+#~ "                    </property>"
+#~ msgstr ""
+#~ "alebo najviac</string>\n"
+#~ "                   </property>"
+
+#, fuzzy
+#~ msgid "restrictions depend on weekdayXXX"
+#~ msgstr "podľa dňa v týždni"
+
+#, fuzzy
+#~ msgid "groupnamestringlist"
+#~ msgstr "Meno skupiny"
+
+#~ msgid "User enabled"
+#~ msgstr "Používateľ zapnutý"
+
+#~ msgid "User id"
+#~ msgstr "ID používateľa"
+
+#, fuzzy
+#~ msgid "usernamestring"
+#~ msgstr "Meno skupiny"
+
+#~ msgid "Everyday from hour"
+#~ msgstr "Denne od hod"
+
+#~ msgid "Everyday to hour"
+#~ msgstr "Denne do hod"
+
+#~ msgid "Everyday maximal hours"
+#~ msgstr "Denne max. hodiny"
+
+#~ msgid "Everyday maximal minutes"
+#~ msgstr "Denne max. minúty"
+
+#~ msgid "Monday enabled"
+#~ msgstr "Pondelok povolený"
+
+#~ msgid "Monday from hour"
+#~ msgstr "Pondelok od hod"
+
+#~ msgid "Monday to hour"
+#~ msgstr "Pondelok do hod"
+
+#~ msgid "Monday maximal hours"
+#~ msgstr "Pondelok max hodín"
+
+#~ msgid "Monday maximal minutes"
+#~ msgstr "Pondelok max minúty"
+
+#~ msgid "Week enabled"
+#~ msgstr "Týždeň zapnutý"
+
+#~ msgid "Week maximal hours"
+#~ msgstr "Týždenné max. hodiny"
+
+#~ msgid "Week maximal minutes"
+#~ msgstr "Týždenné max. minúty"
+
+#~ msgid "Application 1"
+#~ msgstr "Aplikácia 1"
+
+#~ msgid "Application1 from hour"
+#~ msgstr "Aplikácia1 od hod"
+
+#~ msgid "Application1 to hour"
+#~ msgstr "Aplikácia1 do hod"
+
+#~ msgid "Application1 maximal daily hours"
+#~ msgstr "Aplikácia1 denne max hodiny"
+
+#~ msgid "Application1 maximal daily minutes"
+#~ msgstr "Aplikácia1 denne max minúty"
+
+#~ msgid "Application 2"
+#~ msgstr "Aplikácia 2"
+
+#, fuzzy
+#~ msgid "appname2string1"
+#~ msgstr "Meno skupiny"
+
+#~ msgid "Application2 from hour"
+#~ msgstr "Aplikácia2 od hod"
+
+#~ msgid "Application2 to hour"
+#~ msgstr "Aplikácia2 do hod"
+
+#~ msgid "Application2 maximal daily hours"
+#~ msgstr "Aplikácia3 denne max hodiny"
+
+#~ msgid "Application2 maximal daily minutes"
+#~ msgstr "Aplikácia2 denne max minúty"
+
+#~ msgid "Application 3"
+#~ msgstr "Aplikácia 3"
+
+#, fuzzy
+#~ msgid "appname3string_U3"
+#~ msgstr "Meno skupiny"
+
+#~ msgid "Application3 from hour"
+#~ msgstr "Aplikácia3 od hod"
+
+#~ msgid "Application3 to hour"
+#~ msgstr "Aplikácia3 do hod"
+
+#~ msgid "Application3 maximal daily hours"
+#~ msgstr "Aplikácia3 denne max hodiny"
+
+#~ msgid "Application3 maximal daily minutes"
+#~ msgstr "Aplikácia3 denne max minúty"
+
+#, fuzzy
+#~ msgid "Application 4"
+#~ msgstr "Aplikácia 1"
+
+#, fuzzy
+#~ msgid "appname4string_U4"
+#~ msgstr "Meno skupiny"
+
+#, fuzzy
+#~ msgid "Application4 from hour"
+#~ msgstr "Aplikácia1 od hod"
+
+#, fuzzy
+#~ msgid "Application4 to hour"
+#~ msgstr "Aplikácia1 do hod"
+
+#, fuzzy
+#~ msgid "Application4 maximal daily hours"
+#~ msgstr "Aplikácia1 denne max hodiny"
+
+#, fuzzy
+#~ msgid "Application4 maximal daily minutes"
+#~ msgstr "Aplikácia1 denne max minúty"
+
+#, fuzzy
+#~ msgid "Application 5"
+#~ msgstr "Aplikácia 1"
+
+#, fuzzy
+#~ msgid "appname5string_U5"
+#~ msgstr "Meno skupiny"
+
+#, fuzzy
+#~ msgid "Application5 from hour"
+#~ msgstr "Aplikácia1 od hod"
+
+#, fuzzy
+#~ msgid "Application5 to hour"
+#~ msgstr "Aplikácia1 do hod"
+
+#, fuzzy
+#~ msgid "Application5 maximal daily hours"
+#~ msgstr "Aplikácia1 denne max hodiny"
+
+#, fuzzy
+#~ msgid "Application5 maximal daily minutes"
+#~ msgstr "Aplikácia1 denne max minúty"
+
+#, fuzzy
+#~ msgid "usernamestringlist"
+#~ msgstr "Meno skupiny"
+
+#, fuzzy
+#~ msgid ""
+#~ "TextLabel</string>\n"
+#~ "       </property>"
+#~ msgstr ""
+#~ "alebo najviac</string>\n"
+#~ "                   </property>"
+
+#~ msgid "Alt+1"
+#~ msgstr "Alt+1"
+
+#~ msgid "2"
+#~ msgstr "2"
+
+#~ msgid "4"
+#~ msgstr "4"
+
+#~ msgid "6"
+#~ msgstr "6"
+
+#~ msgid "8"
+#~ msgstr "8"
+
+#~ msgid "10"
+#~ msgstr "10"
+
+#~ msgid "12"
+#~ msgstr "12"
+
+#~ msgid "14"
+#~ msgstr "14"
+
+#~ msgid "16"
+#~ msgstr "16"
+
+#~ msgid "18"
+#~ msgstr "18"
+
+#~ msgid "20"
+#~ msgstr "20"
+
+#~ msgid "22"
+#~ msgstr "22"
+
+#~ msgid "00:00"
+#~ msgstr "00:00"
+
+#~ msgid "00"
+#~ msgstr "00"
+
+#~ msgid "Form"
+#~ msgstr "Forma"
+
+#~ msgid "Only root can change the settings of this program!"
+#~ msgstr "Nastavenia tohoto programu môže meniť len root!"
+
+#~ msgid "User 1"
+#~ msgstr "Používateľ 1"
+
+#~ msgid "User 2"
+#~ msgstr "Používateľ 2"
+
+#~ msgid "User 3"
+#~ msgstr "Používateľ 3"
+
+#~ msgid "User 4"
+#~ msgstr "Používateľ 4"
+
+#~ msgid "User 5"
+#~ msgstr "Používateľ 5"
+
+#~ msgid "Group 1"
+#~ msgstr "Skupina 1"
+
+#~ msgid "Group 2"
+#~ msgstr "Skupina 2"
+
+#~ msgid "Group 3"
+#~ msgstr "Skupina 3"
+
+#~ msgid "enable Restriction"
+#~ msgstr "Zapnúť obmedzenie"
+
+#~ msgid "Restricted Usage on Days per Week"
+#~ msgstr "Obmedzené použitie v dňoch týždňa"
+
+#~ msgid "or max"
+#~ msgstr "alebo najviac"
+
+#~ msgid "Day and Time Restrictions"
+#~ msgstr "Obmedzenia dní a času"
+
+#~ msgid "This function is not (yet) implemented."
+#~ msgstr "Táto funkcia (zatiaľ) nie je implementovaná."
+
+#~ msgid "User Settings for kchildlock"
+#~ msgstr "Používateľské nastavenia KChildlock"
+
+#~ msgid "Restricted Programs"
+#~ msgstr "Obmedzené programy"
+
+#~ msgid "Group1 enabled"
+#~ msgstr "Skupina1 zapnutá"
+
+#~ msgid "Group1 id"
+#~ msgstr "ID skupiny1"
+
+#~ msgid ""
+#~ "or max</string>\n"
+#~ "                                      </property>"
+#~ msgstr ""
+#~ "alebo najviac</string>\n"
+#~ "                                      </property>"
+
+#~ msgid "   "
+#~ msgstr "   "
+
+#~ msgid "from"
+#~ msgstr "od"
+
+#~ msgid "until"
+#~ msgstr "do"
+
+#~ msgid ""
+#~ "   </string>\n"
+#~ "                                      </property>"
+#~ msgstr ""
+#~ "   </string>\n"
+#~ "                                      </property>"
+
+#~ msgid "(c), 2009 Rene Landert"
+#~ msgstr "(c), 2009 Rene Landert"
+
+#~ msgid "General Settings"
+#~ msgstr "Všeobecné nastavenia"
+
+#~ msgid "Restrictions for User 1"
+#~ msgstr "Obmedzenia Používateľa 1"
+
+#~ msgid "Settings for User 1"
+#~ msgstr "Nastavenia Používateľa 1"
+
+#~ msgid "Restrictions for User 2"
+#~ msgstr "Obmedzenia Používateľa 2"
+
+#~ msgid "Settings for User 2"
+#~ msgstr "Nastavenia Používateľa 2"
+
+#~ msgid "Restrictions for User 3"
+#~ msgstr "Obmedzenia Používateľa 3"
+
+#~ msgid "Settings for User 3"
+#~ msgstr "Nastavenia Používateľa 3"
+
+#~ msgid "Restrictions for User 4"
+#~ msgstr "Obmedzenia Používateľa 4"
+
+#~ msgid "Settings for User 4"
+#~ msgstr "Nastavenia Používateľa 4"
+
+#~ msgid "Restrictions for User 5"
+#~ msgstr "Obmedzenia Používateľa 5"
+
+#~ msgid "Settings for User 5"
+#~ msgstr "Nastavenia Používateľa 5"
+
+#~ msgid "Group Name"
+#~ msgstr "Meno skupiny"
+
+#~ msgid "Restrictions for Group 1"
+#~ msgstr "Obmedzenia Skupiny 1"
+
+#~ msgid "Settings for Group 1"
+#~ msgstr "Nastavenia Skupiny 1"
+
+#~ msgid "Restrictions for Group 2"
+#~ msgstr "Obmedzenia Skupiny 2"
+
+#~ msgid "Settings for Group 2"
+#~ msgstr "Nastavenia Skupiny 2"
+
+#~ msgid "Restrictions for Group 3"
+#~ msgstr "Obmedzenia Skupiny 3"
+
+#~ msgid "Settings for Group 3"
+#~ msgstr "Nastavenia Skupiny 3"
+
+#~ msgid ":"
+#~ msgstr ":"
+
+#~ msgid "Hr"
+#~ msgstr "hod"
+
+#~ msgid "Min"
+#~ msgstr "min"
+
+#~ msgid "restrict Usage on Tuesdays"
+#~ msgstr "Použitie v Utorky"
+
+#~ msgid "restrict Usage on Wednesdays"
+#~ msgstr "Použitie v Stredy"
+
+#~ msgid "restrict Usage on Thursdays"
+#~ msgstr "Použitiev Štvrtky"
+
+#~ msgid "restrict Usage on Fridays"
+#~ msgstr "Použitie v Piatky"
+
+#~ msgid "restrict Usage on Saturdays"
+#~ msgstr "Použitie v Soboty"
+
+#~ msgid "restrict Usage on Mondays"
+#~ msgstr "Použitie v Pondelky"
+
+#~ msgid "restrict Usage on Sundays"
+#~ msgstr "oPoužitie v Nedele"
+
+#~ msgid "restrict Usage every day"
+#~ msgstr "Každý deň"

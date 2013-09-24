@@ -1,0 +1,5 @@
+ClassName=KchildlockSettings
+File=kchildlock_settings.kcfg
+Mutators=true
+Singleton=false
+Visibility=KDE_EXPORT

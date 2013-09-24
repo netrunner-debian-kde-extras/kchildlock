@@ -1,0 +1,27 @@
+#! /bin/sh
+rm  *.???~ *.?~ CMakeCache.txt 
+rm common/*.???~ common/*.????~ common/?.h~ common/Makefile
+rm daemon/*.???~ daemon/?.h~ daemon/Makefile
+rm kcmodule/*.???~ kcmodule/*.?~ kcmodule/Makefile kcmodule/cmake_install.cmake
+rm kcmodule/CM*.txt~ kcmodule/Ge*.h~ kcmodule/moc_*.cpp kcmodule/*.ui~ kcmodule/ui_*.h
+rm doc/*.???~ doc/*.?~ doc/en/*.???~
+rm pics/*.png~ pics/*.txt~ pics/cmake_install.cmake
+rm -r doc/en/CMakeFiles kcmodule/CMakeFiles
+rm doc/en/cmake_install.* doc/en/Makefile
+rm common/*.moc daemon/*.moc kcmodule/*.moc doc/*.moc
+rm common/*automoc* kcmodule/*automoc* common/*automoc* doc/*automoc*
+rm -r common/CMakeFiles daemon/CMakeFiles kcmodule/CMakeFiles doc/CMakeFiles ./CMakeFiles
+rm -r common/CMakeCache
+rm -r common/CMakeTmp daemon/CMakeTmp kcmodule/CMakeTmp doc/CMakeTmp ./CMakeTmp
+rm common/cmake_install.cmake daemon/cmake_install.cmake kcmodule/cmake_install.cmake doc/cmake_install.cmake 
+rm common/Makefile dameon/Makefile  kcmodule/Makefile doc/Makefile pics/Makefile Makefile
+rm lib/*.so
+rm daemon/kchildlock.cpp daemon/kchildlock.h kcmodule/kchildlock.cpp kcmodule/kchildlock.h
+rm -r po/CMakeFiles
+rm -r pics/CMakeFiles
+rm  po/Makefile po/cmake_install.*
+rm daemon/ksmserver_interface.h daemon/ksmserver_interface.cpp
+rm kcmodule/moc_KchildlockSlots.cpp
+rm daemon/kded_kchildlockdaemon_automoc.cpp*
+rm kcmodule/ui_generalPage.h kcmodule/ui_user*Page.h
+rm cmake_uninstall.cmake

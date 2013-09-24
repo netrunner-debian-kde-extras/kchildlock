@@ -1,0 +1,175 @@
+v0.90.4.2
+* new greek translation by Dimitrios Glentadakis
+
+v0.90.4.1
+* common include file changed for opensuse 12.2
+  (compilation error)
+
+v0.90.4
+* new czech translation by Pavel Fric
+* bug fix: change layout of consumption file: every user record now has
+  day_of_week and week_of_year. If supervising two or more children,
+  the resetting of dayly or weekly values was only done for the 
+  current user; the others kept accumulated values.
+* bug fix: in some cases the limits for groups were not applied.
+  (time duration). Only the first member of a group was restricted.
+* bug fix 3381398: prevent fclose on null pointer
+
+v0.90.3
+* bug fix: documentation compilation on Chakra repositores did not work
+* new russian translation by Z. Lezhnin
+* new ukrainian translation by Yuri Chornoivan
+* documentation updated
+
+v0.90.2
+* bug fix: crash when adding first user
+
+v0.90.1
+* tooltips for allmost all configuration dialog
+* gui has been completely reworked, there are now 4 tabs: Login Times,
+  Time Duration, Program Times and Program Duration.
+* configuration gui: works now with a (unlimited) list of users,
+  and groups. Import and Export the restriction profiles.
+* new internal layout for the file containing the consumed times.
+* new icon.
+* spanish translation (thanks to Miguel Aguilar Molina)
+
+v0.80.2
+* tooltip for system tray icon
+* translation for status display is now ok
+* status display: blend out empty menus
+* Status display: make clear it is only status info; change title and text.
+* dont display status tray icon if there is no active limitation.
+* initialize object KChildlockLimits
+* startup wait time changed from 15 to 5 secs.
+* user setup and group setup: insert separators in gui
+* user setup: enable & disable widgets dependent of chosen value.
+* group setup: enable & disable widgets dependent of chosen value.
+* user application restrictions setup now with checkboxes
+* exchange code between destructor/constructor of class KchildlockLimits
+* check the enabled flags (from gui) in the daemon.
+* update documentation
+* new: slovak translation (thanks to Slavko!)
+
+
+v0.80.1
+* code completely revised
+* gui rework: use of slider and ruler for specifing from-to times (Qgraphics)
+* let the user display the remaing time for playing / working on the PC.
+* the handbook is adpoted with print screens of the new gui.
+* max value for weekly usage now 99h instead of 23
+* new: french translation
+
+v0.76.4
+* fix bug 3029641 (on Mandriva 2010, and possibly on other distros too)
+  when calling GUI (error message ...QMetaObject...)
+* fix bug 3025175 syntax for constructors (for new version 4.5 of gcc compiler)
+  compilation error on suse 11.3 and Arch Linux
+
+v0.76.3
+* bulgarian translation. Thanks to Stoilov Nikolai !!!
+* fix crash when calling GUI without beeing root user
+* fix crash, influenced by redundend definition of variables (segment fault in gui)
+* correct fix of bug#2961922 - ID: 2991296
+* fix error: AppNames did not get re-displayed on subsequent configuration
+* correction of doc: installation commands
+
+v0.76.2
+* fix error in get_active_session (did not work!!!!)
+* install dummy file in /var/opt/kchildlock to create dir
+* fix bug for icon path
+* error messages are now no more waiting for answers
+
+v0.76.1
+* simplify UI programs (e.g. one source for user config instead of five)
+* low limit for choice of user groups
+* enable "default" button in config
+* set first tab as default tab when calling setup
+* larger values for minimal window size.
+* patch "kchildlock-0.75.3-drop-kworkspace.patch" by fwang
+* patch "kchildlock-0.75.3-mdv-fix-icon-path.patch" by fwang
+* patch "kchildlock-0.75.4-mdv-fix-cmake-install-path.patch" by neoclust
+
+v0.75.4
+* cmake for kubuntu corrected
+
+v0.75.3
+* add portuguese translation (pt_BR) 
+  thanks to Márcio Moraes!
+* fix bug: cmake install path for 64 bit
+* fix bug: icon path for mandriva in kcmodule/kcm_kchildlock.desktop
+
+v0.75.2
+* add own icon / change to oxygen standard icons (missed in kubuntu)
+* adapt icon path in kchildlock.desktop
+* cmake file for libs changed (kubuntu)
+* change dir for storing accumulated usage times
+* fix bug in kcfg file (user id for labels)
+* fix bug in qdus reply:userid is type uint
+* change startup timeout from 30s to 60s
+
+v0.75.0
+* online help
+* rearrange kcfg files in common dir for std cmake files
+* german translation
+* change GUI-Files for longer strings (german) for "max weekly usage)
+* change GUI for User- and Group-Restricitons: introduce2radiobuttons on 
+  each screen, first one is for same settings for everyday, second one is
+  for different settings per weekday.
+* change GUI for User- and Group-Restricitons: the settings is now in a
+  new TAB
+* split up file KchildlockConf.cpp in KchildlockConf.cpp and 
+  KchildlockConfConfig.cpp
+* simplify connection and slots (reduce number of them)
+* settings file is now in /usr/share/kde4/config/kchildlockrc
+* early check for root privilege!
+* daemon: check for same day restrictions
+* simplify handling of warnings with warningstate
+* GUI: add setup for three restricted applications per user
+
+v0.70.1
+* complete rewrite of programs for kde4 and cmake
+  configuration is now done through "Personal Settings"
+  --> "Enhanced" --> "KChildlock"
+
+v0.66.2
+* html files for doc created & make file corrected
+
+v0.66
+* adapt grafic layout of gui for longer german texts
+* german handbook
+* configure --without-arts (for kubuntu)
+* new src/pics directory
+* adapt file location for deamon startup yes or noo (suse/kubuntu)
+* force usage of global config file
+* notification now changed from knotify to osd_create
+  (this needs package xosd to be installed)
+
+v0.65.2
+* correct some minor bugs (notification)
+
+v0.65.0:
+* limit user choice to non-system userids
+* change settings texts to avoid misunderstandings of the enduser
+* add a max weekly usage limit for the 3 restricted users
+* now supports restrictions for 5 users instead of only 3
+* restrictions for groups of users
+* rework logout function for KDE4
+* possibility to start daemon with debug log
+
+v0.60.0:
+* add support for KDE 4.x
+* graphic layout correction in user?.ui
+* german translation
+
+v0.51.0:
+* add installation instructions
+* add handbook in english
+* fix bug: no default autostart after installation
+* fix bug: modify startup scripts
+* fix bug: modify startup procedures
+* fix bug: use global config file instead of user config file for root
+* fix bug: daemon crashed when no session was active
+
+v0.50.0:
+*initial version
