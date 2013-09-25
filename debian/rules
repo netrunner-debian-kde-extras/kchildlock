@@ -5,4 +5,7 @@
 #export DH_VERBOSE=1
 
 %:
-	dh $@ --fail-missing --parallel --with kde
+	dh $@  --parallel --with kde
+
+override_dh_install:
+	dh_install -Xvar/opt/kchildlock/dummy.txt
