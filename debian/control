@@ -3,7 +3,7 @@ Section: admin
 Priority: extra
 Maintainer: Debian KDE Extras Team <pkg-kde-extras@lists.alioth.debian.org>
 Uploaders: Howard Chan <smartboyhw@gmail.com>
-Build-Depends: debhelper (>= 9), cmake, pkg-kde-tools, kdelibs-dev
+Build-Depends: debhelper (>= 9), cmake, pkg-kde-tools, kdelibs5-dev
 Standards-Version: 3.9.4
 Homepage: http://kchildlock.sourceforge.net
 
