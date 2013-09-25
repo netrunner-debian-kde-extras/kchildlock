@@ -6,6 +6,19 @@ Files: *
 Copyright: 2009-2011 Rene Landert <rene.landert@bluewin.ch>
 License: GPL-2+
 
+Files: doc/*
+Copyright: 2009-2011 Rene Landert <rene.landert@bluewin.ch>
+License: GFDL-NIV-1.2
+ Permission is granted to copy, distribute and/or modify this document
+ under the terms of the GNU Free Documentation License, Version 1.2
+ or any later version published by the Free Software Foundation;
+ with no Invariant Sections, no Front-Cover Texts, and no Back-Cover Texts.
+ A copy of the license is included in the section entitled "GNU Free
+ Documentation License".
+ .
+ On Debian systems, the complete text of the GNU Free Documentation
+ License version 1.2 can be found in "/usr/share/common-licenses/GFDL-1.2".
+
 Files: debian/*
 Copyright: 2013 Howard Chan <smartboyhw@gmail.com>
 License: GPL-2+
